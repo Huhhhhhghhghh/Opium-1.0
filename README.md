@@ -8,6 +8,15 @@
 
 🕹Go past the boundaries with Opium! Our service hosts over 100+ unblocked games, includes many selectable proxies, emulators, and tab cloakers. And guess what? All of it is free with no fees at all for anything! 🎮
 
+**New Features**
+
+- New Page styles
+- Better & more games
+- More content
+- User Friendly
+- Better Search Bar
+- Changelog
+
 ### Testing Site: https://opium-tst.neocities.org
 
 ## Active Domains
