@@ -6,7 +6,7 @@ document.write(`
     <a href="/p/">Proxy</a>
     <a href="/e/b.html">Bookmarklets</a>
     <a href="/e/m.html">Mirrors</a>
-    <a href="/s/"><i class="fas fa-search"></i></a>
+    <a href="/s/q.html"><i class="fas fa-search"></i></a>
     <a href="/e/s.html">Settings</a>
   </nav>
   <div id="socials">
