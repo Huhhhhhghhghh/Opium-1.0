@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #101010;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+#left {
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.cover-img {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  font-size: 3em;
+}
+
+.desc {
+  font-size: 1.7em;
+}
+
+.play-btn {
+  font-weight: bold;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #c43131;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+  background-color: #8c2b2b;
+}
