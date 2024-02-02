@@ -62,5 +62,13 @@
     "directory": "/g/adr",
     "tags": ["puzzle"],
     "lfs": false
+  },
+  {
+    "title": "The Legend Of Zelda: Ocarina of Time",
+    "author": "Nintendo",
+    "img": "/i/g/zelda-ocarina.png",
+    "directory": "/g/zelda-ocarina",
+    "tags": ["emulator", "fighting"],
+    "lfs": true
   }
 ]
