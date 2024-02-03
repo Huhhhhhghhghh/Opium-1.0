@@ -77,7 +77,16 @@
     "img": "/i/g/zelda-ocarina.png",
     "directory": "/g/zelda-ocarina",
     "tags": ["emulator", "fighting"],
-    "description": "Journey through the land of Hyrule in the Nintendo 64's first installment in the Zelda universe, Legend of Zelda: The Ocarina of Time. You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser". You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.",
+    "description": "Journey through the land of Hyrule in the Nintendo 64's first installment in the Zelda universe, Legend of Zelda: The Ocarina of Time. You can save your data to your browser. Click the settings icon and press 'Save State Location', then change it to 'Keep in Browser'. You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.",
+    "lfs": true
+  },
+  {
+    "title": "Amazing Strange Rope Police",
+    "author": "HGames-ArtWorks",
+    "img": "/i/g/amazing-rope.png",
+    "directory": "/g/amazing-rope",
+    "tags": ["unity", "fighting"],
+    "description": "Amazing Strange Rope Police – Vice Spider Vegas is a fantastic city simulator game in which you get to control a superhero that is like Spiderman. You can choose to become a superhero and save the day, or you can be the bad guy and become a supervillain instead! The 3D graphics in this game are immense, and the huge city you can explore is vast and full of surprises. You can use a myriad of superhero moves such as a web shot, building climb and laser beam too! To top it all off, you can choose from a range of different superhero costumes too. Which path will you choose?",
     "lfs": true
   }
 ]
