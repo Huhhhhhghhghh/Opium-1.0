@@ -88,5 +88,14 @@
     "tags": ["unity", "fighting"],
     "description": "Amazing Strange Rope Police – Vice Spider Vegas is a fantastic city simulator game in which you get to control a superhero that is like Spiderman. You can choose to become a superhero and save the day, or you can be the bad guy and become a supervillain instead! The 3D graphics in this game are immense, and the huge city you can explore is vast and full of surprises. You can use a myriad of superhero moves such as a web shot, building climb and laser beam too! To top it all off, you can choose from a range of different superhero costumes too. Which path will you choose?",
     "lfs": true
+  },
+  {
+    "title": "Baldi's Basics",
+    "author": "mystman12",
+    "img": "/i/g/baldi.png",
+    "directory": "/g/baldis-basics",
+    "tags": ["unity", "puzzle", "strategy"],
+    "description": "Baldi's Basics in Education and Learning is a 2018 parody horror video game created by American indie developer Micah McGonigal, known by the pseudonym Mystman12.",
+    "lfs": true
   }
 ]
