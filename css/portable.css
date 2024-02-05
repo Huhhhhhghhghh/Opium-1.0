@@ -39,3 +39,20 @@ nav a,
 #socials a:hover {
   color: #c43131;
 }
+
+footer {
+  justify-content: center;
+  margin: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  background-color: #0d0d0d;
+  padding: 5px 20px;
+  height: 50px;
+  box-shadow: 0 0 10px #4d4d4d;
+}
+
+footer p {
+  font-size: 1.2em;
+  text-align: center;
+}
