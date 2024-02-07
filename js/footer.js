@@ -1,5 +1,5 @@
 document.write(`
   <footer>
-      <p>&copy; ${new Date().getFullYear()} CybriaTech. All Rights Reserved</p>
+      <p>&copy; ${new Date().getFullYear()} CybriaTech</p>
   </footer>
 `);
