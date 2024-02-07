@@ -55,14 +55,15 @@ footer {
 footer p {
   font-size: 1.2em;
   text-align: center;
+  margin-left: 5px;
 }
 
 footer a {
   text-decoration: none;
   color: #fff;
   transition: color 0.2s ease;
-  margin-left: 7px; 
-  margin-right: 7px;
+  margin-left: 5px; 
+  margin-right: 5px;
 }
 
 footer a:hover {
