@@ -92,7 +92,8 @@ form {
 }
 
 .search-enter {
-  height: 55px;
+  width: 50px;
+  height: 56px;
   background-color: #c43131;
   border: none;
   border-radius: 0 6px 6px 0;
