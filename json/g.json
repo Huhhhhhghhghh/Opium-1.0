@@ -5,11 +5,11 @@
     "img": "/i/g/slope.png",
     "directory": "/g/slope",
     "tags": ["unity", "platformer"],
-    "description": "Slope is the ultimate running game that will put your skills to the test. Speed down on a randomized slope. The farther you go, the faster your ball travels. This game might look simple but playing this will give you extreme adrenaline rush. Just remember to avoid obstacles and those red blocks. Always be on track to get a high score and you might have your name on the leaderboard!",
-    "lfs": false,
     "api": {
       "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/slope/game.zip"
-    }
+    },
+    "description": "Slope is the ultimate running game that will put your skills to the test. Speed down on a randomized slope. The farther you go, the faster your ball travels. This game might look simple but playing this will give you extreme adrenaline rush. Just remember to avoid obstacles and those red blocks. Always be on track to get a high score and you might have your name on the leaderboard!",
+    "lfs": false,
   },
   {
     "title": "Getaway Shootout",
@@ -17,6 +17,9 @@
     "img": "/i/g/getaway-shootout.png",
     "directory": "/g/getaway-shootout",
     "tags": ["unity", "shooter", "multiplayer", "fighting"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/getaway-shootout/game.zip"
+    },
     "description": "Race on top of a moving train in Getaway Shootout and be the first to grab 3 getaways. Compete against computer AI or with a friend in 2 player mode to prove who is the best. There are many weapons and power-ups you can collect throughout the map use it wisely to to gain an upper hand over your opponents.",
     "lfs": false
   },
@@ -26,6 +29,9 @@
     "img": "/i/g/gun-mayhem.png",
     "directory": "/g/gun-mayhem",
     "tags": ["flash", "shooter", "multiplayer", "fighting"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/gun-mayhem/game.zip"
+    },
     "description": "Gun Mayhem is an extremely interesting flash format shooting game developed by Kevin Gu. The game is designed with 10 maps starting from prehistoric context to modern times. The player's task in this game is to destroy all enemies by shooting them down! Very simple, isn't it! Let's start the adventure now!",
     "lfs": false
   },
@@ -35,6 +41,9 @@
     "img": "/i/g/sm-64.png",
     "directory": "/g/sm64",
     "tags": ["platformer", "emulator"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/sm64/game.zip"
+    },
     "description": "Super Mario 64 is a 1996 platform game for the Nintendo 64 and the first Super Mario game to feature 3D gameplay. It was developed by Nintendo EAD and published by Nintendo. You can save your data to your browser. Click the settings icon and press "Save State Location", then change it to "Keep in Browser". You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.",
     "lfs": false
   },
@@ -44,6 +53,9 @@
     "img": "/i/g/2048.png",
     "directory": "/g/2048",
     "tags": ["mobile", "puzzle"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/2048/game.zip"
+    },
     "description": "2048 is a single-player sliding block puzzle game. Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one!",
     "lfs": false
   },
@@ -53,6 +65,9 @@
     "img": "/i/g/g-snake.png",
     "directory": "/g/google-snake",
     "tags": ["mobile"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/google-snake/game.zip"
+    },
     "description": "How long can you last before your tail becomes your dinner? Take the challenge and eat all those apples! Be careful not to hit the wall!",
     "lfs": false
   },
@@ -62,6 +77,9 @@
     "img": "/i/g/drift-hunters.png",
     "directory": "/g/drift-hunters",
     "tags": ["driving", "unity"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/drift-hunters/game.zip"
+    },
     "description": "Drift Hunters is an awesome 3D car driving game in which you score points by drifting various cars. These points earn you money, that you can spend to upgrade your current car or buy a new one. The game stands out because of its realistic drifting physics and its various driving environments.",
     "lfs": false
   },
@@ -71,6 +89,9 @@
     "img": "/i/g/adr.png",
     "directory": "/g/adr",
     "tags": ["puzzle"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/adr/game.zip"
+    },
     "description": "A Dark Room is a minimalist text-based adventure RPG game right in your browser! How far will you go, player?",
     "lfs": false
   },
@@ -80,6 +101,9 @@
     "img": "/i/g/zelda-ocarina.png",
     "directory": "/g/zelda-ocarina",
     "tags": ["emulator", "fighting"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/ocarina/game.zip"
+    },
     "description": "Journey through the land of Hyrule in the Nintendo 64's first installment in the Zelda universe, Legend of Zelda: The Ocarina of Time. You can save your data to your browser. Click the settings icon and press 'Save State Location', then change it to 'Keep in Browser'. You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus.",
     "lfs": true
   },
@@ -89,6 +113,9 @@
     "img": "/i/g/amazing-rope.png",
     "directory": "/g/amazing-rope",
     "tags": ["unity", "fighting"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/amazing-rope/game.zip"
+    },
     "description": "Amazing Strange Rope Police – Vice Spider Vegas is a fantastic city simulator game in which you get to control a superhero that is like Spiderman. You can choose to become a superhero and save the day, or you can be the bad guy and become a supervillain instead! The 3D graphics in this game are immense, and the huge city you can explore is vast and full of surprises. You can use a myriad of superhero moves such as a web shot, building climb and laser beam too! To top it all off, you can choose from a range of different superhero costumes too. Which path will you choose?",
     "lfs": true
   },
@@ -98,6 +125,9 @@
     "img": "/i/g/baldi.png",
     "directory": "/g/baldis-basics",
     "tags": ["unity", "puzzle", "strategy"],
+    "api": {
+      "raw-github": "https://raw.githubusercontent.com/CybriaTech/Opium-CDN/main/assets/game/baldi/game.zip"
+    },
     "description": "Baldi's Basics in Education and Learning is a 2018 parody horror video game created by American indie developer Micah McGonigal, known by the pseudonym Mystman12.",
     "lfs": true
   }
