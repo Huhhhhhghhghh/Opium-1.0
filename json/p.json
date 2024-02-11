@@ -1,93 +1,20 @@
-[
-  {
-    "Number": 1,
-    "Type": "Interstellar",
-    "Image": "/i/p/interstellar.png",
-    "Domain": "autumn.shekinahphotography.com",
-    "Link": "https://explore.autumn.shekinahphotography.com/"
-  },
-  {
-    "Number": 2,
-    "Type": "Interstellar",
-    "Image": "/i/p/interstellar.png",
-    "Domain": "autumn.shekinahphotography.com",
-    "Link": "https://learn.autumn.shekinahphotography.com/"
-  },
-  {
-    "Number": 3,
-    "Type": "Interstellar",
-    "Image": "/i/p/interstellar.png",
-    "Domain": "root",
-    "Link": "https://gointerstellar.app/"
-  },
-  {
-    "Number": 4,
-    "Type": "Rammerhead",
-    "Image": "/i/p/rammerhead.png",
-    "Domain": "rammerhead.org",
-    "Link": "https://demo-opensource.rammerhead.org/"
-  },
-  {
-    "Number": 5,
-    "Type": "Rammerhead",
-    "Image": "/i/p/rammerhead.png",
-    "Domain": "rammerhead.org",
-    "Link": "https://browser.rammerhead.org/"
-  },
-  {
-    "Number": 6,
-    "Type": "Abyss",
-    "Image": "/i/p/abyss.png",
-    "Domain": "root",
-    "Link": "https://intoabyss.org/"
-  },
-  {
-    "Number": 7,
-    "Type": "Shuttle",
-    "Image": "/i/p/shuttle.png",
-    "Domain": "root",
-    "Link": "https://learnsmartly.org/"
-  },
-  {
-    "Number": 8,
-    "Type": "Velocity",
-    "Image": "/i/p/velocity.png",
-    "Domain": "Koyeb",
-    "Link": "https://stale-sandra-primelis.koyeb.app/"
-  },
-  {
-    "Number": 9,
-    "Type": "Doge Unblocker",
-    "Image": "/i/p/doge.png",
-    "Domain": "root",
-    "Link": "https://dogesurf.app/app"
-  },
-  {
-    "Number": 10,
-    "Type": "Shuttle",
-    "Image": "/i/p/shuttle.png",
-    "Domain": "embedding.mov",
-    "Link": "https://link.embedding.mov/"
-  },
-  {
-    "Number": 11,
-    "Type": "Shuttle",
-    "Image": "/i/p/shuttle.png",
-    "Domain": "root",
-    "Link": "https://www.webapplication.design/"
-  },
-  {
-    "Number": 12,
-    "Type": "Shuttle",
-    "Image": "/i/p/shuttle.png",
-    "Domain": "uwuugle.com",
-    "Link": "https://search.uwuugle.com/"
-  },
-  {
-    "Number": 13,
-    "Type": "Shuttle",
-    "Image": "/i/p/shuttle.png",
-    "Domain": "root",
-    "Link": "https://shuttle.mom/"
+{
+  "Interstellar": {
+    "1": "https://gointerstellar.app",
+    "2": "https://interstellar-monkey.koyeb.app/photography",
+    "3": "https://xp.x14n.org",
+    "4": "https://criminal.laws.tibetjustice.org",
+    "5": "https://frontend.development.sanluix.org",
+    "6": "https://x.e.adamandandrea.org",
+    "7": "https://us1.cambrianscientific.com",
+    "8": "https://w.e.adamandandrea.org",
+    "9": "https://stats.volkszaehler.org",
+    "10": "https://j.o.h4xxel.org",
+    "11": "https://health.k4ds.org",
+    "12": "https://delta.y.glenwaverleychurches.org",
+    "13": "https://engines.chaosengines.net",
+    "14": "https://beta.y.glenwaverleychurches.org",
+    "15": "https://meteor.newsofmaricopa.com",
+    "16": "https://ocean.lakeballs.fi"
   }
-]
+}
