@@ -70,12 +70,12 @@ footer a:hover {
   color: #c43131;
 }
 
-form {
+#form-top {
+  align-items: center;
+  justify-content: space-between;
   position: relative;
   text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 20px;
 }
 
