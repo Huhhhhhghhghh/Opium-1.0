@@ -2,7 +2,8 @@
 
 .cat-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
+  font-weight: bold;
+  font-size: 1.8em;
   display: flex;
   justify-content: flex-start;
   text-align: center;
