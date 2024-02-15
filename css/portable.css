@@ -7,7 +7,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: ##1F2029;
+  background-color: #1F2029;
   padding: 5px 20px;
   height: 50px;
   box-shadow: 0 0 10px #1F2029;
@@ -46,7 +46,7 @@ footer {
   z-index: 999999;
   display: flex;
   align-items: center;
-  background-color: ##1F2029;
+  background-color: #1B1C24;
   padding: 5px 20px;
   height: 50px;
   box-shadow: 0 0 10px #1F2029;
@@ -85,7 +85,7 @@ footer a:hover {
   width: 250px;
   height: 45px;
   border-radius: 6px 0 0 6px;
-  background-color: #191C24;
+  background-color: #35363E;
   border: none;
   padding-right: 45px;
   font-family: 'Roboto', sans-serif;
@@ -103,7 +103,7 @@ footer a:hover {
 .search-enter-top {
   width: 45px;
   height: 47px;
-  background-color: #191C24;
+  background-color: #35363E;
   border: none;
   border-radius: 0 6px 6px 0;
   color: #fff;
