@@ -10,8 +10,8 @@ document.write(`
   </nav>
   <div id="right">
         <form action="/search" method="get">
-      <input type="text" name="g" class="search-bar" placeholder="Search For A Game">
-      <button class="search-enter"><i class="fas fa-search"></i></button>
+      <input type="text" name="g" class="search-bar-top" placeholder="Search For A Game">
+      <button class="search-enter-top"><i class="fas fa-search"></i></button>
       </form>
       <a href="/e/s.html"><i class="fas fa-cog"></i></a>
   </div>
