@@ -12,7 +12,7 @@
     "author": "Pat Eichler",
     "img": "/i/g/getaway-shootout.png",
     "directory": "/g/getaway-shootout",
-    "tags": ["unity", "shooter", "multiplayer", "fighting"],
+    "tags": ["unity", "multiplayer", "action"],
     "description": "Race on top of a moving train in Getaway Shootout and be the first to grab 3 getaways. Compete against computer AI or with a friend in 2 player mode to prove who is the best. There are many weapons and power-ups you can collect throughout the map use it wisely to to gain an upper hand over your opponents."
   },
   {
@@ -20,7 +20,7 @@
     "author": "Kevin Gu",
     "img": "/i/g/gun-mayhem.png",
     "directory": "/g/gun-mayhem",
-    "tags": ["flash", "shooter", "multiplayer", "fighting"],
+    "tags": ["flash", "action", "multiplayer"],
     "description": "Gun Mayhem is an extremely interesting flash format shooting game developed by Kevin Gu. The game is designed with 10 maps starting from prehistoric context to modern times. The player's task in this game is to destroy all enemies by shooting them down! Very simple, isn't it! Let's start the adventure now!"
   },
   {
@@ -68,7 +68,7 @@
     "author": "Nintendo",
     "img": "/i/g/zelda-ocarina.png",
     "directory": "/g/zelda-ocarina",
-    "tags": ["emulator", "fighting"],
+    "tags": ["emulator", "action"],
     "description": "Journey through the land of Hyrule in the Nintendo 64's first installment in the Zelda universe, Legend of Zelda: The Ocarina of Time. You can save your data to your browser. Click the settings icon and press 'Save State Location', then change it to 'Keep in Browser'. You can enter fullscreen by hovering over the game and pressing the fullscreen button in the bottom right If pressing enter causes the game to tab in and out, just click on the middle of the game to refocus."
   },
   {
@@ -76,7 +76,7 @@
     "author": "HGames-ArtWorks",
     "img": "/i/g/amazing-rope.png",
     "directory": "/g/amazing-rope",
-    "tags": ["unity", "fighting"],
+    "tags": ["unity", "action"],
     "description": "Amazing Strange Rope Police – Vice Spider Vegas is a fantastic city simulator game in which you get to control a superhero that is like Spiderman. You can choose to become a superhero and save the day, or you can be the bad guy and become a supervillain instead! The 3D graphics in this game are immense, and the huge city you can explore is vast and full of surprises. You can use a myriad of superhero moves such as a web shot, building climb and laser beam too! To top it all off, you can choose from a range of different superhero costumes too. Which path will you choose?"
   },
   {
