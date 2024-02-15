@@ -29,9 +29,14 @@
 }
 
 #game img {
-  width: 150px;
-  height: 80px;
+  width: 200px;
+  height: 100px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+#game {
+  display: flex;
+  justify-content: flex-start;
 }
   
