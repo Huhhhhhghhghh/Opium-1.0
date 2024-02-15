@@ -9,7 +9,7 @@
   text-align: center;
   align-items: center;
   color: #fff;
-  position: fixed;
+  position: relative;
 }
 
 #game a {
