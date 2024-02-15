@@ -6,7 +6,7 @@ document.write(`
     <a href="/p/">Proxy</a>
     <a href="/e/b.html">Bookmarklets</a>
     <a href="/e/m.html">Mirrors</a>
-    <a href="/e/c.html">Changelog</a>
+    <a href="/e/s.html">Settings</a>
   </nav>
   <div id="right">
         <form action="/search" method="get">
