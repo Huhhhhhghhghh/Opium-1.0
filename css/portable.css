@@ -76,7 +76,7 @@ footer a:hover {
   position: relative;
   text-align: center;
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .search-bar-top {
@@ -103,12 +103,12 @@ footer a:hover {
 .search-enter-top {
   width: 45px;
   height: 47px;
-  background-color: #c43131;
+  background-color: #333333;
   border: none;
   border-radius: 0 6px 6px 0;
   color: #fff;
   font-weight: bold;
-  transition: background-color 0.2s ease;
+  transition: color 0.2s ease;
   margin-left: 0.5px;
   z-index: 2;
   font-size: 1.9em;
@@ -117,5 +117,5 @@ footer a:hover {
 }
 
 .search-enter-top:hover {
-  background-color: #8c2b2b;
+  color: #8c2b2b;
 }
