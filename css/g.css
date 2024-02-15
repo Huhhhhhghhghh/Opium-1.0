@@ -29,8 +29,8 @@
 }
 
 #game img {
-  width: 250px;
-  height: 100px;
+  width: 215px;
+  height: 150px;
   object-fit: cover;
   border-radius: 6px;
 }
