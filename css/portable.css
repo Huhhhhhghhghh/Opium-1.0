@@ -10,7 +10,7 @@ header {
   background-color: #1F2029;
   padding: 5px 20px;
   height: 50px;
-  box-shadow: 0 0 10px #4d4d4d;
+  box-shadow: 0 0 10px #1B1C24;
 }
 
 nav {
@@ -46,10 +46,10 @@ footer {
   z-index: 999999;
   display: flex;
   align-items: center;
-  background-color: #0d0d0d;
+  background-color: #1F2029;
   padding: 5px 20px;
   height: 50px;
-  box-shadow: 0 0 10px #4d4d4d;
+  box-shadow: 0 0 10px #1B1C24;
 }
 
 footer p {
