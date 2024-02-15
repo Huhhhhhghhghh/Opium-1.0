@@ -76,7 +76,7 @@ footer a:hover {
   position: relative;
   text-align: center;
   display: flex;
-  margin-bottom: 100%;
+  top: 0;
 }
 
 .search-bar-top {
