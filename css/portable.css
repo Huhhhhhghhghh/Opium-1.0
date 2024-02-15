@@ -25,7 +25,7 @@ nav a:hover {
 }
 
 nav a,
-#socials a {
+#right a {
   font-size: 1.7em;
   font-family: 'Source Sans Pro', sans-serif;
   margin-left: 10px; 
@@ -36,7 +36,7 @@ nav a,
   transition: color 0.2s ease;
 }
 
-#socials a:hover {
+#right a:hover {
   color: #c43131;
 }
 
@@ -68,4 +68,54 @@ footer a {
 
 footer a:hover {
   color: #c43131;
+}
+
+form {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-bar-top {
+  color: #ffffff;
+  font-size: 1.9em;
+  width: 250px;
+  height: 45px;
+  border-radius: 6px 0 0 6px;
+  background-color: #333333;
+  border: none;
+  padding-right: 45px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search-bar-top::placeholder {
+  color: #ffffff;
+}
+
+.search-bar-top:focus {
+  outline: none;
+  border-color: transparent;
+}
+
+.search-enter-top {
+  width: 45px;
+  height: 47px;
+  background-color: #c43131;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  margin-left: 0.5px;
+  z-index: 2;
+  font-size: 1.9em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search-enter-top:hover {
+  background-color: #8c2b2b;
 }
