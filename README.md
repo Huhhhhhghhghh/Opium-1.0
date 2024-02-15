@@ -15,13 +15,14 @@
 - More content
 - User Friendly
 - Better Search Bar
-- Changelog
 
 ### Testing Site: https://opium-tst.neocities.org
 
 ## Active Domains
 
-### None
+https://tst.opium-games.com
+
+https://249249kfvkm3t5kcf.pages.dev
 
 # Socials
 
