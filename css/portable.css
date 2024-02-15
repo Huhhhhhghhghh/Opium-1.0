@@ -85,14 +85,14 @@ footer a:hover {
   width: 250px;
   height: 45px;
   border-radius: 6px 0 0 6px;
-  background-color: #333333;
+  background-color: #35363E;
   border: none;
   padding-right: 45px;
   font-family: 'Roboto', sans-serif;
 }
 
 .search-bar-top::placeholder {
-  color: #ffffff;
+  color: #ADB0B7;
 }
 
 .search-bar-top:focus {
