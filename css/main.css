@@ -76,14 +76,14 @@ form {
   width: 450px;
   height: 55px;
   border-radius: 6px 0 0 6px;
-  background-color: #333333;
+  background-color: #35363E;
   border: none;
   padding-right: 45px;
   font-family: 'Roboto', sans-serif;
 }
 
 .search-bar::placeholder {
-  color: #ffffff;
+  color: #ADB0B7;
 }
 
 .search-bar:focus {
@@ -126,7 +126,7 @@ form {
 
 .sec-desc {
   margin: 0;
-  color: #8a8a8a;
+  color: #D1D5DB;
   font-size: 1.2em;
 }
 
