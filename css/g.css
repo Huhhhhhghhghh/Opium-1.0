@@ -10,3 +10,28 @@
   align-items: center;
   color: #fff;
 }
+
+#game a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.gm-title {
+  margin-left: 10px;
+  font-size: 1.4em;
+  text-align: left;
+}
+
+.gm-author {
+  margin-left: 10px;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+#game img {
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+  
