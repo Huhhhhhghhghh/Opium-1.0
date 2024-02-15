@@ -20,14 +20,12 @@
   margin-left: 10px;
   font-size: 1.4em;
   text-align: left;
-  position: relative;
 }
 
 .gm-author {
   margin-left: 10px;
   font-size: 1.2em;
   text-align: left;
-  position: relative;
 }
 
 #game img {
@@ -39,6 +37,7 @@
 }
 
 #game {
+  position: relative;
   display: flex;
   justify-content: flex-start;
 }
