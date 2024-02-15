@@ -13,7 +13,6 @@ document.write(`
       <input type="text" name="g" class="search-bar-top" placeholder="Search For A Game">
       <button class="search-enter-top"><i class="fas fa-search"></i></button>
       </form>
-      <a style="justify-content: flex-end;" href="/e/s.html"><i class="fas fa-cog"></i></a>
   </div>
 </header>
 `);
