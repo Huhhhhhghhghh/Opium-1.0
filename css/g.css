@@ -24,12 +24,7 @@
 .game-button img {
   width: 200px;
   height: 130px;
-  transition: transform 0.3s ease;
   border-radius: 7px;
-}
-
-.game-button:hover img {
-  transform: scale(1.1);
 }
 
 .game-button::after {
@@ -44,10 +39,11 @@
 }
 
 .game-button:hover::after {
-  width: 130px;
+  width: 200px;
 }
 
-.game-title {
+.game-title,
+.game-author {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -55,13 +51,5 @@
   font-weight: bold;
   font-size: 16px;
   margin: 0;
-}
-
-.game-author {
-  position: absolute;
-  top: 30px;
-  left: 10px;
-  color: #fff;
-  font-size: 12px;
-  margin: 0;
+  z-index: 1;
 }
