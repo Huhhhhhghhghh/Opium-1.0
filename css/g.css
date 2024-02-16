@@ -24,7 +24,8 @@
 .game-button img {
   width: 200px;
   height: 130px;
-  border-radius: 7px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .game-button::after {
