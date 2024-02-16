@@ -40,6 +40,7 @@
 
 .game-button:hover::after {
   width: 200px;
+  z-index: 2;
 }
 
 .game-title,
