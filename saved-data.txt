@@ -1,0 +1,3 @@
+Header: #e0dfd6
+
+Main: #e4e3db
