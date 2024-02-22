@@ -88,6 +88,7 @@
     "1": "https://demo-opensource.rammerhead.org",
     "2": "https://browser.rammerhead.org",
     "3": "https://bing.bizuit.com/"
+    "4": "https://abcde.firstimage.biz"
   },
   "ShadowBrowser": {
     "1": "https://shadowenglisn.fr.to",
@@ -101,9 +102,10 @@
     "2": "https://arsonalphabet.mooo.com",
     "3": "https://kazwire.com",
     "4": "https://kazwi.re",
-    "5": "search.kazwire.com",
-    "6": "math.kazwire.com",
-    "7": "poets.kazwire.com",
-    "8": "worldhistory.kazwire.com"
+    "5": "https://search.kazwire.com",
+    "6": "https://math.kazwire.com",
+    "7": "https://poets.kazwire.com",
+    "8": "https://worldhistory.kazwire.com",
+    "9": "https://learnaboutcows.mooo.com"
   }
 }
