@@ -107,5 +107,8 @@
     "7": "https://poets.kazwire.com",
     "8": "https://worldhistory.kazwire.com",
     "9": "https://learnaboutcows.mooo.com"
+  },
+  "MiniProxy": {
+    "1": "https://www.zerotoone.com.br/wp-content/plugins/super-links/application/helpers/super-links-proxy.php"
   }
 }
