@@ -16,7 +16,7 @@ function ver() {
                             gameButton.id = 'game-btn';
                             gameButton.innerHTML = `
                                 <a href="${game.directory}" class="game-button">
-                                    <img id="game-img" style="width: 100%; height: 100%; object-fit: cover;" src="${game.img}" alt="${game.title}">
+                                    <img id="game-img" src="${game.img}" alt="${game.title}">
                                     <div class="underline"></div>
                                 </a>
                             `;
