@@ -20,6 +20,10 @@ function ver() {
                                     <div class="underline"></div>
                                 </a>
                             `;
+                            
+                            const anchorElement = gameButton.querySelector('a');
+                            anchorElement.href = '/css/g.css';
+                            
                             categoryDiv.appendChild(gameButton);
                             const gameContainer = document.getElementById('game-container');
                             if (gameContainer) {
