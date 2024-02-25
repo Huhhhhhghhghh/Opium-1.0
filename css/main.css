@@ -59,6 +59,23 @@ body {
   background-color: #8c2b2b;
 }
 
+.ver-btn {
+  font-weight: bold;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 1.6em;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #8c2b2b;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ver-btn:hover {
+  background-color: #c43131;
+}
+
 /*! Search */
 
 form {
