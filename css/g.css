@@ -27,7 +27,7 @@
   margin-bottom: 20px;
 }
 
-.game-img {
+#game-img {
   display: block;
   width: 100%;
   height: auto;
@@ -47,7 +47,7 @@
   transition: transform 0.3s ease;
 }
 
-.game-img {
+#game-img:hover {
   transform: scale(1.1);
   filter: brightness(0.8);
 }
