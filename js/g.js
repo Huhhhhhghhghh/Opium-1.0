@@ -6,7 +6,7 @@ function ver() {
     fetch('/json/g.json')
     .then(response => response.json())
     .then(data => {
-        const addedGames = new Set(); // Set to keep track of added games
+        const addedGames = new Set();
         data.forEach(game => {
             if (game.tags && game.tags.length > 0) {
                 game.tags.forEach(tag => {
