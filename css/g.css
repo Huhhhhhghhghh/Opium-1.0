@@ -17,7 +17,7 @@
   flex-wrap: wrap;
 }
 
-#game-btn {
+.game-btn {
   width: 250px;
   height: 150px;
   position: relative;
