@@ -13,6 +13,7 @@ document.write(`
       <input type="text" name="g" class="search-bar-top" placeholder="Search For A Game">
       <button class="search-enter-top"><i class="fas fa-search"></i></button>
       </form>
+      <div id="theme" class="theme"></div>
   </div>
 </header>
 `);
