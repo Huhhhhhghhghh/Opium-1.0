@@ -13,42 +13,6 @@ document.write(`
       <input type="text" name="g" class="search-bar-top" placeholder="Search For A Game">
       <button class="search-enter-top"><i class="fas fa-search"></i></button>
       </form>
-      <div id="theme" class="theme"></div>
   </div>
 </header>
 `);
-
-function toggleTheme() {
-  const body = document.body;
-  const themeIcon = document.getElementById('theme-icon');
-  
-  if (body.classList.contains('dark-theme')) {
-    body.classList.remove('dark-theme');
-    themeIcon.classList.remove('fas fa-moon');
-    themeIcon.classList.add('fas fa-sun');
-    body.style.backgroundColor = '#e4e3db';
-    body.style.color = '#000';
-    document.querySelectorAll('.mirror-item').forEach(item => {
-      item.style.backgroundColor = '#1C1C1C';
-      item.style.color = '#fff';
-    });
-    document.querySelectorAll('.search-bar, .search-bar-top').forEach(bar => {
-      bar.style.backgroundColor = '#35363E';
-      bar.style.color = '#fff';
-    });
-  } else {
-    body.classList.add('dark-theme');
-    themeIcon.classList.remove('fas fa-sun');
-    themeIcon.classList.add('fas fa-moon');
-    body.style.backgroundColor = '#1C1C1C';
-    body.style.color = '#fff';
-    document.querySelectorAll('.mirror-item').forEach(item => {
-      item.style.backgroundColor = '#e0dfd6';
-      item.style.color = '#000';
-    });
-    document.querySelectorAll('.search-bar, .search-bar-top').forEach(bar => {
-      bar.style.backgroundColor = '#e0dfd6';
-      bar.style.color = '#000';
-    });
-  }
-}
