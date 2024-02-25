@@ -24,8 +24,8 @@ function toggleTheme() {
   
   if (body.classList.contains('dark-theme')) {
     body.classList.remove('dark-theme');
-    themeIcon.classList.remove('fa-moon');
-    themeIcon.classList.add('fa-sun');
+    themeIcon.classList.remove('fas fa-moon');
+    themeIcon.classList.add('fas fa-sun');
     body.style.backgroundColor = '#e4e3db';
     body.style.color = '#000';
     document.querySelectorAll('.mirror-item').forEach(item => {
@@ -38,8 +38,8 @@ function toggleTheme() {
     });
   } else {
     body.classList.add('dark-theme');
-    themeIcon.classList.remove('fa-sun');
-    themeIcon.classList.add('fa-moon');
+    themeIcon.classList.remove('fas fa-sun');
+    themeIcon.classList.add('fas fa-moon');
     body.style.backgroundColor = '#1C1C1C';
     body.style.color = '#fff';
     document.querySelectorAll('.mirror-item').forEach(item => {
