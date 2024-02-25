@@ -22,6 +22,7 @@ function ver() {
                             </a>
                         `;
                         gameContainer.appendChild(gameButton);
+                        categoryDiv.appendChild(gameButton);
                         addedGames.add(game.title);
                     }
                 });
