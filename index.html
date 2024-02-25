@@ -72,10 +72,6 @@
       </form>
       <p class="desc"><strong><u>Your</u> go-to unblocked games site. Enjoy your visit!</strong></p>
       <button class="play-btn" id="play-btn" onclick="window.location.href='/g/';">Go To Games</button>
-      <div class="version">
-      <button class="ver-btn" id="ver-btn" onclick="ver()"><i class="fas fa-info"></i></button>
-      <div class="ver-bubble" id="ver-bubble">Loading Version...</div>
-      </div>
     </div>
   </section>
   <section id="sec-section">
@@ -99,19 +95,6 @@
     document.addEventListener('DOMContentLoaded', function () {
       document.body.classList.add('loaded');
     });
-
-        function ver() {
-        fetch('VERSION.json')
-        .then(response => response.json())
-        .then(data => {
-            const version = data.version;
-            const verBubble = document.getElementById('ver-bubble');
-            verBubble.textContent = `Opium Games is currently on Version ${version}`;
-        })
-        .catch(error => {
-            console.error('Err', error);
-        });
-    }
   </script>
 </body>
 </html>
