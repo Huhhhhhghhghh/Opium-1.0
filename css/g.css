@@ -29,11 +29,8 @@
 
 #game-img {
   display: block;
-  object-fit: cover;
   width: 1200px;
   height: 800px;
-  margin: 0;
-  padding: 0;
   border-radius: 10px 10px 0 0;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
