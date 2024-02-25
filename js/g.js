@@ -6,26 +6,22 @@ function ver() {
     fetch('/json/g.json')
     .then(response => response.json())
     .then(data => {
-       data.forEach(game => {
+        const addedGames = new Set(); // Set to keep track of added games
+        data.forEach(game => {
             if (game.tags && game.tags.length > 0) {
                 game.tags.forEach(tag => {
                     const categoryDiv = document.querySelector(`#${tag}`);
-                    if (categoryDiv) {
-                        if (game.tags.includes(tag)) {
-                            const gameButton = document.createElement('div');
-                            gameButton.id = 'game-btn';
-                            gameButton.innerHTML = `
-                                <a href="${game.directory}" class="game-button">
-                                    <img id="game-img" src="${game.img}" alt="${game.title}">
-                                    <div class="underline"></div>
-                                </a>
-                            `;
-                            categoryDiv.appendChild(gameButton);
-                            const gameContainer = document.getElementById('game-container');
-                            if (gameContainer) {
-                                gameContainer.appendChild(gameButton.cloneNode(true));
-                            }
-                        }
+                    if (categoryDiv && !addedGames.has(game.title)) {
+                        const gameButton = document.createElement('div');
+                        gameButton.classList.add('game-btn');
+                        gameButton.innerHTML = `
+                            <a href="${game.directory}" class="game-button">
+                                <img class="game-img" src="${game.img}" alt="${game.title}">
+                                <div class="underline"></div>
+                            </a>
+                        `;
+                        categoryDiv.appendChild(gameButton);
+                        addedGames.add(game.title);
                     }
                 });
             }
