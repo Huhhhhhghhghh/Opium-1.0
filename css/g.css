@@ -50,7 +50,7 @@
 
 #game-img:hover {
   transform: scale(1.1);
-  filter: brightness(0.8);
+  filter: brightness(0.6);
 }
 
 #game-btn:hover .underline {
