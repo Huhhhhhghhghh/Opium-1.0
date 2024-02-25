@@ -53,6 +53,6 @@
   filter: brightness(0.6);
 }
 
-#game-btn:hover .underline {
+.game-btn:hover .underline {
   transform: scaleY(1);
 }
