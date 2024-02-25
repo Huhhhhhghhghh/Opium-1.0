@@ -6,6 +6,7 @@ function ver() {
     fetch('/json/g.json')
     .then(response => response.json())
     .then(data => {
+        const gameContainer = document.getElementById('game-container');
         const addedGames = new Set();
         data.forEach(game => {
             if (game.tags && game.tags.length > 0) {
@@ -20,7 +21,7 @@ function ver() {
                                 <div class="underline"></div>
                             </a>
                         `;
-                        categoryDiv.appendChild(gameButton);
+                        gameContainer.appendChild(gameButton);
                         addedGames.add(game.title);
                     }
                 });
