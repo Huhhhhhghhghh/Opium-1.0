@@ -12,12 +12,18 @@
   position: relative;
 }
 
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #game-btn {
   width: 250px;
   height: 150px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
+  margin-right: 20px;
   margin-bottom: 20px;
 }
 
