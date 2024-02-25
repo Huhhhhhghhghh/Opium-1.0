@@ -62,6 +62,7 @@ body {
 .ver-btn {
   font-weight: bold;
   height: 50px;
+  width: 50px;
   margin-top: 10px;
   font-size: 1.6em;
   border: none;
