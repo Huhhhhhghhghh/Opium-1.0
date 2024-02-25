@@ -87,4 +87,12 @@
     "tags": ["unity", "puzzle", "strategy"],
     "description": "Baldi's Basics in Education and Learning is a 2018 parody horror video game created by American indie developer Micah McGonigal, known by the pseudonym Mystman12."
   }
+  {
+    "title": "Subway Surfers: NYC",
+    "author": "SYBO",
+    "img": "/i/g/subway-ny.png",
+    "directory": "/g/subway-surfers-ny",
+    "tags": ["unity", "action", "platformer"],
+    "description": "Subway Surfers is an endless runner mobile game developed by Kiloo and SYBO Games. In the game, you take on the role of a young graffiti artist who has been caught tagging a subway train by a grumpy inspector and his dog. To escape, you must run through the subway tracks, dodging oncoming trains, barriers, and other obstacles. As you run, you can collect coins, power-ups, and hoverboards to help you stay ahead of the inspector and his dog."
+  }
 ]
