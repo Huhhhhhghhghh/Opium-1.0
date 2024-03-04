@@ -32,6 +32,10 @@
   font-size: 1.4em;
 }
 
+.game-btn:hover .game-title {
+  opacity: 1;
+}
+
 #game-container {
   display: flex;
   flex-wrap: wrap;
