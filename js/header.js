@@ -4,8 +4,8 @@ document.write(`
     <a href="/">Home</a>
     <a href="/g/">Games</a>
     <a href="/p/">Proxy</a>
-    <a href="/e/b.html">Bookmarklets</a>
     <a href="/e/m.html">Mirrors</a>
+    <a href="/e/b.html">Blog</a>
     <a href="/e/s.html">Settings</a>
   </nav>
   <div id="right">
