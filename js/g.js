@@ -17,7 +17,9 @@ function ver() {
                         gameButton.classList.add('game-btn');
                         gameButton.innerHTML = `
                             <a href="${game.directory}" class="game-button">
-                            <p class="game-title">${game.title}</p>
+                            <div class="game-title-c">
+                             <p class="game-title">${game.title}</p>
+                             </div>
                                 <img class="game-img" src="${game.img}" alt="${game.title}">
                                 <div class="underline"></div>
                             </a>
