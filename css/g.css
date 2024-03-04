@@ -12,8 +12,7 @@
   position: relative;
 }
 
-.game-title,
-.game-author {
+.game-title {
   display: inline-flex;
   flex-direction: column;
   position: absolute;
@@ -33,12 +32,6 @@
 
 .game-title {
   font-size: 1.4em;
-}
-
-.game-author {
-  top: 100%;
-  margin-top: 5px;
-  font-size: 1.1em;
 }
 
 #game-container {
@@ -77,8 +70,7 @@
   transition: transform 0.3s ease;
 }
 
-.game-btn:hover .game-title,
-.game-btn:hover .game-author {
+.game-btn:hover .game-title {
   opacity: 1;
 }
 
