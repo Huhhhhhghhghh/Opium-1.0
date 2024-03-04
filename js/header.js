@@ -10,7 +10,7 @@ document.write(`
   </nav>
   <div id="right">
         <form id="form-top" action="/search" method="get">
-      <input type="text" name="g" class="search-bar-top" placeholder="Search For A Game or Tag">
+      <input type="text" name="g" class="search-bar-top" placeholder="Search For A Game">
       <button class="search-enter-top"><i class="fas fa-search"></i></button>
       </form>
   </div>
