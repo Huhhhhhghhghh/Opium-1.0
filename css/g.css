@@ -72,6 +72,10 @@
   transition: transform 0.3s ease;
 }
 
+.game-img:hover + .game-title {
+  opacity: 1;
+}
+
 .game-img:hover {
   transform: scale(1.1);
   filter: brightness(0.6);
