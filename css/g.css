@@ -24,7 +24,7 @@
   color: white;
   opacity: 0;
   font-weight: bold;
-  text-shadow: 0 0 9px #000;
+  text-shadow: 0 0 1px #000;
   pointer-events: none;
   transition: opacity 0.1s ease;
 }
