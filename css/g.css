@@ -73,7 +73,7 @@
   transition: transform 0.3s ease;
 }
 
-.game-btn:hover .game-img + .game-title {
+.game-btn:hover .game-title {
   opacity: 1;
 }
 
