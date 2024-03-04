@@ -27,13 +27,13 @@
 }
 
 .game-title {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
 .game-author {
   top: 30px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #game-container {
