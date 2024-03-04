@@ -73,7 +73,7 @@
   opacity: 1;
 }
 
-.game-img:hover {
+.game-img:hover .game-title {
   transform: scale(1.1);
   filter: brightness(0.6);
 }
