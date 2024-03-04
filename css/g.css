@@ -21,13 +21,19 @@
   padding: 0;
   color: white;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   pointer-events: none;
   transition: opacity 0.3s ease;
 }
 
+.game-title {
+  font-size: 1.9em;
+  font-weight: bold;
+}
+
 .game-author {
   top: 30px;
+  font-size: 1.7em;
 }
 
 #game-container {
