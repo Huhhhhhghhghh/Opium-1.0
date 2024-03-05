@@ -70,5 +70,11 @@
     "img": "/i/g/subway-ny.png",
     "directory": "/g/subway-surfers-ny",
     "tags": ["unity", "action", "platformer"]
+  },
+  {
+    "title": "Subway Surfers: Singapore",
+    "img": "/i/g/subway-singapore.png",
+    "directory": "/g/subway-surfers-singapore",
+    "tags": ["unity", "action", "platformer"]
   }
 ]
