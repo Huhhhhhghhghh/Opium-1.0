@@ -1,10 +1,13 @@
 [
   {
     "ID": "1",
-    "BlogTitle": "Opium Games in turmoil at CFISD",
-    "BlogDesc": "Opium Games is CFISD's biggest interest, X-88 and Sc0tt are laughing their asses off about it",
+    "BlogTitle": "Opium Games Version 1.0 Released!",
+    "BlogDesc": "Opium Games Version 1.0 has been released! With newer design, features and games.",
+    "BlogAuthor": "X-88",
+    "Created": null,
+    "LastUpdated": null,
     "BlogImg": "/i/b/1.png",
-    "BlogDir": "/b/x-88/opium-games-in-turmoil-at-cfisd"
+    "BlogDir": "/b/x-88/welcome-to-opium-1.0"
   }
 ]
     
