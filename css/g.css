@@ -37,6 +37,8 @@
 #game-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  width: calc(300px * N + 20px * (N - 1));
 }
 
 .game-btn {
