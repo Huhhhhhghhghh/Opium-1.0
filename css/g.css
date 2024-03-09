@@ -36,9 +36,10 @@
 
 #game-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
   width: calc(300px * N + 20px * (N - 1));
+  overflow-x: auto;
 }
 
 .game-btn {
@@ -47,7 +48,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin-right: 0;
+  margin-right: 20px;
   margin-bottom: 20px;
 }
 
