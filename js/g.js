@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function ver() {
     const addgms = new Map();
-    const clicks = new Map();
-    let trendingButton = null;
+    let clicks = new Map();
+    let trendingGames = JSON.parse(localStorage.getItem('trending')) || [];
 
     fetch('/json/g.json')
         .then(response => response.json())
@@ -53,12 +53,9 @@ function ver() {
 
             function updateTrending(clickedButton) {
                 const trendingContainer = document.getElementById('trending');
-                if (trendingButton) {
-                    trendingContainer.removeChild(trendingButton);
-                }
-
                 let maxClicks = 0;
                 let maxClicksTitle = null;
+
                 clicks.forEach((clickCount, gameTitle) => {
                     if (clickCount > maxClicks) {
                         maxClicks = clickCount;
@@ -70,8 +67,25 @@ function ver() {
                     const gameButtons = document.querySelectorAll('.game-btn');
                     gameButtons.forEach(button => {
                         if (button.querySelector('.game-title').textContent === maxClicksTitle) {
-                            trendingButton = button.cloneNode(true);
+                            const trendingButton = button.cloneNode(true);
+                            trendingContainer.innerHTML = '';
                             trendingContainer.appendChild(trendingButton);
+
+                            if (!trendingGames.includes(maxClicksTitle)) {
+                                trendingGames.unshift(maxClicksTitle);
+                                localStorage.setItem('trending', JSON.stringify(trendingGames));
+                            }
+                        }
+                    });
+                }
+
+                if (clickedButton && trendingGames.length > 0) {
+                    const leastClickedTitle = trendingGames.pop();
+                    localStorage.setItem('trending', JSON.stringify(trendingGames));
+
+                    gameButtons.forEach(button => {
+                        if (button.querySelector('.game-title').textContent === leastClickedTitle) {
+                            trendingContainer.removeChild(button);
                         }
                     });
                 }
