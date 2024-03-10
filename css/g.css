@@ -99,15 +99,14 @@
   width: auto;
   height: auto;
   align-items: center;
+  z-index: 1;
 }
 
 .arrow-left {
-  margin-right: 20px;
   justify-content: flex-start;
 }
 
 .arrow-right {
-  right: 100%;
   justify-content: flex-end;
 }
 
