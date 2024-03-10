@@ -87,14 +87,11 @@
   transform: scaleY(1);
 }
 
-.carousel {
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
 .arrow-left,
 .arrow-right {
   position: absolute;
+  margin-right: 100px;
+  margin-left: 100px;
   display: flex;
   cursor: pointer;
   border: none;
