@@ -109,4 +109,8 @@
   justify-content: flex-end;
 }
 
+.arrow-right:active,
+.arrow-left:active {
+  background-color: #1B1C24;
+}
 
