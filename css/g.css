@@ -88,7 +88,7 @@
 
 .arrow-left,
 .arrow-right {
-  position: relative;
+  position: absolute;
   display: flex;
   cursor: pointer;
   border: none;
@@ -102,12 +102,12 @@
 }
 
 .arrow-left {
-  padding-left: 10px;
+  margin-right: 10px;
   justify-content: flex-start;
 }
 
 .arrow-right {
-  padding-right: 10px;
+  margin-left: 10px;
   justify-content: flex-end;
 }
 
