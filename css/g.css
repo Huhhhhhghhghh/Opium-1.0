@@ -88,7 +88,7 @@
 
 .arrow-left,
 .arrow-right {
-  position: absolute;
+  position: relative;
   display: flex;
   cursor: pointer;
   border: none;
