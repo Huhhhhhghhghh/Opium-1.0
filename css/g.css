@@ -109,13 +109,11 @@
 
 .arrow-left {
   left: 0;
-  top: 50%;
   justify-content: flex-start;
 }
 
 .arrow-right {
   right: 0;
-  top: 50%;
   justify-content: flex-end;
 }
 
