@@ -85,3 +85,29 @@
 .game-btn:hover .underline {
   transform: scaleY(1);
 }
+
+.carousel {
+  display: flex;
+}
+
+.arrow-left,
+.arrow-right {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4em;
+  color: #fff;
+  background-color: #1F2029;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+
+.arrow-left {
+  justify-content: flex-start;
+}
+
+.arrow-right {
+  justify-content: flex-end;
+}
+
+
