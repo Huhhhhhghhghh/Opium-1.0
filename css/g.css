@@ -13,6 +13,7 @@
 }
 
 .game-title {
+  flex: 1;
   display: inline-flex;
   flex-direction: column;
   position: absolute;
@@ -39,13 +40,10 @@
   white-space: nowrap;
 }
 
-.game-container {
-  overflow-x: hidden;
-  position: relative;
-}
-
 #game-container {
   display: flex;
+  overflow-x: hidden;
+  position: relative;
   justify-content: flex-start;
   width: auto;
   overflow: hidden;
