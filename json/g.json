@@ -89,5 +89,12 @@
     "img": "/i/g/subway-singapore.png",
     "directory": "/g/subway-surfers-singapore",
     "tags": ["unity", "action", "platformer"]
+  },
+  {
+    "ID": 14,
+    "title": "Cookie Clicker",
+    "img": "/i/g/cookie-clicker.png",
+    "directory": "/g/cookie-clicker",
+    "tags": ["mobile", "idle"]
   }
 ]
