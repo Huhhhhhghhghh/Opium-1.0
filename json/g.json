@@ -103,5 +103,12 @@
     "img": "/i/g/ckc.png",
     "directory": "/g/creative-kill-chamber",
     "tags": ["flash", "action", "puzzle"]
+  },
+  {
+    "ID": 16,
+    "title": "Retro Bowl",
+    "img": "/i/g/retro-bowl.png",
+    "directory": "/g/retro-bowl",
+    "tags": ["sports"]
   }
 ]
