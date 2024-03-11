@@ -110,5 +110,12 @@
     "img": "/i/g/retro-bowl.png",
     "directory": "/g/retro-bowl",
     "tags": ["sports"]
+  },
+  {
+    "ID": 17,
+    "title": "Street Fighter 2",
+    "img": "/i/g/street-fighter-2.jpg",
+    "directory": "/g/street-fighter-2",
+    "tags": ["sports", "emulator", "action"]
   }
 ]
