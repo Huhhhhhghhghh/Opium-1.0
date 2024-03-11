@@ -101,6 +101,8 @@
   background-color: #1F2029;
   width: auto;
   height: auto;
+  margin-top: 50%;
+  margin-bottom: 50%;
   align-items: center;
   z-index: 1;
 }
