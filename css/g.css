@@ -34,11 +34,16 @@
   font-size: 1.6em;
 }
 
+.carousel-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 #game-container {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: flex-start;
   width: auto;
+  overflow-x: hidden;
 }
 
 .game-btn {
