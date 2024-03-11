@@ -89,6 +89,8 @@
 
 .arrow-left,
 .arrow-right {
+  top: 50%;
+  transform: translateY(-50%);
   position: absolute;
   margin-right: 100px;
   margin-left: 100px;
@@ -101,8 +103,6 @@
   background-color: #1F2029;
   width: auto;
   height: auto;
-  margin-top: 50%;
-  margin-bottom: 50%;
   align-items: center;
   z-index: 1;
 }
