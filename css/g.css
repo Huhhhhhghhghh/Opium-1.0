@@ -15,7 +15,7 @@
 .game-title {
   display: inline-flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   text-align: left;
   top: 10px;
   left: 10px;
@@ -41,7 +41,7 @@
   width: auto;
   overflow-x: auto;
   overflow-y: hidden;
-  
+  display: inline-block;
 }
 
 .game-btn {
@@ -52,7 +52,6 @@
   border-radius: 10px;
   margin-right: 20px;
   margin-bottom: 20px;
-  display: inline-block;
   position: relative;
 }
 
@@ -66,7 +65,7 @@
 }
 
 .underline {
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
