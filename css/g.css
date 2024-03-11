@@ -35,10 +35,9 @@
 }
 
 #game-container {
-  justify-content: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
   width: auto;
-  overflow-x: auto;
-  overflow-y: hidden;
 }
 
 .game-btn {
