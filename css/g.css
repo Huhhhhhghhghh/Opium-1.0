@@ -36,6 +36,7 @@
 
 #game-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   width: calc(300px * N + 20px * (N - 1));
@@ -50,7 +51,6 @@
   overflow: hidden;
   border-radius: 10px;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
 
 .game-img {
