@@ -40,6 +40,7 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
   width: auto;
+  align-items: flex-start;
   overflow-x: auto;
   overflow-y: hidden;
   
