@@ -96,5 +96,12 @@
     "img": "/i/g/cookie-clicker.png",
     "directory": "/g/cookie-clicker",
     "tags": ["mobile", "idle"]
+  },
+  {
+    "ID": 15,
+    "title": "Creative Kill Chamber",
+    "img": "/i/g/ckc.png",
+    "directory": "/g/creative-kill-chamber",
+    "tags": ["flash", "action", "puzzle"]
   }
 ]
