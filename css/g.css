@@ -35,8 +35,6 @@
 }
 
 #game-container {
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: flex-start;
   width: auto;
   overflow-x: auto;
