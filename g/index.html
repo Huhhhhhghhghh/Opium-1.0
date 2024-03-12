@@ -273,6 +273,24 @@ function moveCarousel(direction) {
         touchEndX = 0;
       });
     });
+
+      const btns = wrapper.querySelectorAll('.game-btn');
+      wrapper.addEventListener('scroll', () => {
+        const scrollLeft = wrapper.scrollLeft;
+        const scrollWidth = wrapper.scrollWidth;
+        const clientWidth = wrapper.clientWidth;
+        
+        if (scrollLeft === 0) {
+          btns[0].style.display = 'none';
+          btns[1].style.display = 'inline-block';
+        } else if (scrollLeft + clientWidth === scrollWidth) {
+          btns[0].style.display = 'inline-block';
+          btns[1].style.display = 'none';
+        } else {
+          btns.forEach(btn => btn.style.display = 'inline-block');
+        }
+      });
+    });
   </script>
   <script src="/js/analytics.js"></script>
   <script src="/js/g.js"></script>
