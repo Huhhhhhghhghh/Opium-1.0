@@ -239,6 +239,9 @@
 function moveCarousel(direction) {
   const carouselWrapper = document.querySelector('.carousel-wrapper');
   const scrollDistance = 300;
+  const carouselWidth = carouselWrapper.scrollWidth;
+  const buttonLeft = document.querySelector('.btn-left');
+  const buttonRight = document.querySelector('.btn-right');
   
   if (direction === 'left') {
     carouselWrapper.scrollBy({
@@ -252,6 +255,62 @@ function moveCarousel(direction) {
     });
   }
 }
+
+let buttonHoldInterval;
+function startButtonHold(direction) {
+  moveCarousel(direction);
+  buttonHoldInterval = setInterval(() => {
+    moveCarousel(direction);
+  }, 200);
+}
+
+function stopButtonHold() {
+  clearInterval(buttonHoldInterval);
+}
+
+const buttonLeft = document.querySelector('.btn-left');
+const buttonRight = document.querySelector('.btn-right');
+
+buttonLeft.addEventListener('mousedown', () => {
+  startButtonHold('left');
+});
+buttonRight.addEventListener('mousedown', () => {
+  startButtonHold('right');
+});
+
+buttonLeft.addEventListener('mouseup', stopButtonHold);
+buttonRight.addEventListener('mouseup', stopButtonHold);
+buttonLeft.addEventListener('mouseleave', stopButtonHold);
+buttonRight.addEventListener('mouseleave', stopButtonHold);
+
+let touchStartX = 0;
+let touchEndX = 0;
+
+carouselWrapper.addEventListener('touchstart', (e) => {
+  touchStartX = e.touches[0].clientX;
+});
+
+carouselWrapper.addEventListener('touchmove', (e) => {
+  touchEndX = e.touches[0].clientX;
+});
+
+carouselWrapper.addEventListener('touchend', () => {
+  if (touchEndX < touchStartX) {
+    moveCarousel('right');
+  } else if (touchEndX > touchStartX) {
+    moveCarousel('left');
+  }
+  touchStartX = 0;
+  touchEndX = 0;
+});
+
+carouselWrapper.addEventListener('scroll', () => {
+  if (carouselWrapper.scrollLeft === 0) {
+    carouselWrapper.scrollLeft = carouselWidth;
+  } else if (carouselWrapper.scrollLeft >= carouselWidth) {
+    carouselWrapper.scrollLeft = 0;
+  }
+});
   </script>
 </body>
 </html>
