@@ -233,53 +233,22 @@
       document.body.classList.add('loaded');
     });
 
-    function moveCarousel(direction, category) {
-      const carouselWrapper = document.querySelector(`#${category}`);
-      const scrollDistance = 300;
-      const carouselWidth = carouselWrapper.scrollWidth;
-      
-      if (direction === 'left') {
-        carouselWrapper.scrollBy({
-          left: -scrollDistance,
-          behavior: 'smooth'
-        });
-      } else if (direction === 'right') {
-        carouselWrapper.scrollBy({
-          left: scrollDistance,
-          behavior: 'smooth'
-        });
-      }
-    }
-
-    function checkScrollEnd(category) {
-      const carouselWrapper = document.querySelector(`#${category}`);
-      const scrollPosition = carouselWrapper.scrollLeft;
-      const maxScroll = carouselWrapper.scrollWidth - carouselWrapper.clientWidth;
-      if (scrollPosition === 0) {
-        carouselWrapper.scrollBy({
-          left: maxScroll,
-          behavior: 'smooth'
-        });
-      } else if (scrollPosition === maxScroll) {
-        carouselWrapper.scrollBy({
-          left: -maxScroll,
-          behavior: 'smooth'
-        });
-      }
-    }
-
-    let scrollingInterval;
-
-    function scrollContinuously(direction, category) {
-      moveCarousel(direction, category);
-      scrollingInterval = setInterval(() => {
-        moveCarousel(direction, category);
-      }, 200);
-    }
-
-    function stopScrolling() {
-      clearInterval(scrollingInterval);
-    }
+function moveCarousel(direction) {
+  const carouselWrapper = document.querySelector('.carousel-wrapper');
+  const scrollDistance = 300;
+  
+  if (direction === 'left') {
+    carouselWrapper.scrollBy({
+      left: -scrollDistance,
+      behavior: 'smooth'
+    });
+  } else if (direction === 'right') {
+    carouselWrapper.scrollBy({
+      left: scrollDistance,
+      behavior: 'smooth'
+    });
+  }
+}
   </script>
   <script src="/js/analytics.js"></script>
   <script src="/js/g.js"></script>
