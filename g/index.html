@@ -233,38 +233,52 @@
       document.body.classList.add('loaded');
     });
 
-    let scrollIntervals = {};
-
-    function startScroll(carouselId, direction) {
-      clearInterval(scrollIntervals[carouselId]);
-      scrollIntervals[carouselId] = setInterval(() => moveCarousel(carouselId, direction), 10);
-    }
-
-    function stopScroll() {
-      Object.values(scrollIntervals).forEach(interval => clearInterval(interval));
-    }
-
-    function moveCarousel(carouselId, direction) {
-      const carouselWrapper = document.getElementById(carouselId);
-      const scrollDistance = 2;
+    function moveCarousel(direction, category) {
+      const carouselWrapper = document.querySelector(`#${category}`);
+      const scrollDistance = 300;
       const carouselWidth = carouselWrapper.scrollWidth;
-
+      
       if (direction === 'left') {
-        carouselWrapper.scrollLeft -= scrollDistance;
+        carouselWrapper.scrollBy({
+          left: -scrollDistance,
+          behavior: 'smooth'
+        });
       } else if (direction === 'right') {
-        carouselWrapper.scrollLeft += scrollDistance;
+        carouselWrapper.scrollBy({
+          left: scrollDistance,
+          behavior: 'smooth'
+        });
       }
     }
 
-    function checkScroll(carouselId) {
-      const carouselWrapper = document.getElementById(carouselId);
+    function checkScrollEnd(category) {
+      const carouselWrapper = document.querySelector(`#${category}`);
+      const scrollPosition = carouselWrapper.scrollLeft;
       const maxScroll = carouselWrapper.scrollWidth - carouselWrapper.clientWidth;
-
-      if (carouselWrapper.scrollLeft === 0) {
-        carouselWrapper.scrollLeft = maxScroll;
-      } else if (carouselWrapper.scrollLeft >= maxScroll) {
-        carouselWrapper.scrollLeft = 0;
+      if (scrollPosition === 0) {
+        carouselWrapper.scrollBy({
+          left: maxScroll,
+          behavior: 'smooth'
+        });
+      } else if (scrollPosition === maxScroll) {
+        carouselWrapper.scrollBy({
+          left: -maxScroll,
+          behavior: 'smooth'
+        });
       }
+    }
+
+    let scrollingInterval;
+
+    function scrollContinuously(direction, category) {
+      moveCarousel(direction, category);
+      scrollingInterval = setInterval(() => {
+        moveCarousel(direction, category);
+      }, 200);
+    }
+
+    function stopScrolling() {
+      clearInterval(scrollingInterval);
     }
   </script>
   <script src="/js/analytics.js"></script>
