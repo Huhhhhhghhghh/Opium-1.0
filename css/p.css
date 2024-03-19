@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
 }
 
 form {
@@ -36,4 +37,5 @@ input:focus {
 
 .proxy-title {
   font-size: 3.5em;
+  margin-bottom: 0;
 }
