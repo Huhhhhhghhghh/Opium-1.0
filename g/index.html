@@ -54,163 +54,168 @@
   <script src="/js/header.js"></script>
   <br>
   <main style="margin-left: 150px; margin-right: 150px; min-height: 100vh;">
-  <p class="cat-title">Trending</p>
+  <div id="favorite" class="favorite">
+    <p class="cat-title">Favorite Games</p>
+    <div id="game-container"></div>
+    <!-- /json/g.json with /js/favorite.js -->
+  </div>
   <div id="trending" class="trending">
+    <p class="cat-title">Trending</p>
     <div id="game-container"></div>
     <!-- /json/g.json and maybe even /js/analytics.js -->
   </div>
-  <p class="cat-title">Unity</p>
   <div id="unity" class="unity carousel-wrapper">
+    <p class="cat-title">Unity</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Flash</p>
   <div id="flash" class="flash carousel-wrapper">
+    <p class="cat-title">Flash</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Emulator</p>
   <div id="emulator" class="emulator carousel-wrapper">
+    <p class="cat-title">Emulator</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Driving</p>
   <div id="driving" class="driving carousel-wrapper">
+    <p class="cat-title">Driving</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Sports</p>
   <div id="sports" class="sports carousel-wrapper">
+    <p class="cat-title">Sports</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Puzzle</p>
   <div id="puzzle" class="puzzle carousel-wrapper">
+    <p class="cat-title">Puzzle</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Mobile</p>
   <div id="mobile" class="mobile carousel-wrapper">
+    <p class="cat-title">Mobile</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Action</p>
   <div id="action" class="action carousel-wrapper">
+    <p class="cat-title">Action</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Idle</p>
   <div id="idle" class="idle carousel-wrapper">
+    <p class="cat-title">Idle</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Platformer</p>
   <div id="platformer" class="platformer carousel-wrapper">
+    <p class="cat-title">Platformer</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Strategy</p>
   <div id="strategy" class="strategy carousel-wrapper">
+    <p class="cat-title">Strategy</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
   </div>
-  <p class="cat-title">Multiplayer</p>
   <div id="multiplayer" class="multiplayer carousel-wrapper">
+    <p class="cat-title">Multiplayer</p>
     <div id="game-container"></div>
     <!-- /json/g.json -->
     <div class="carousel">
-      <button class="arrow-left" onclick="moveCarousel('left', this.parentElement.previousElementSibling)">
+      <button class="arrow-left" onclick="moveCarousel('left')">
         <i class="fas fa-arrow-left"></i>
       </button>
-      <button class="arrow-right" onclick="moveCarousel('right', this.parentElement.previousElementSibling)">
+      <button class="arrow-right" onclick="moveCarousel('right')">
         <i class="fas fa-arrow-right"></i>
       </button>
     </div>
@@ -219,26 +224,25 @@
   <br>
   <br>
   <script src="/js/footer.js"></script>
+  <script src="/js/analytics.js"></script>
+  <script src="/js/g.js"></script>
   <script>
 function moveCarousel(direction) {
   const carouselWrapper = document.querySelector('.carousel-wrapper');
   const scrollDistance = 300;
   
-  function scroll() {
-    if (direction === 'left') {
-      carouselWrapper.scrollBy({
-        left: -scrollDistance,
-        behavior: 'smooth'
-      });
-    } else if (direction === 'right') {
-      carouselWrapper.scrollBy({
-        left: scrollDistance,
-        behavior: 'smooth'
-      });
-    }
+  if (direction === 'left') {
+    carouselWrapper.scrollBy({
+      left: -scrollDistance,
+      behavior: 'smooth'
+    });
+  } else if (direction === 'right') {
+    carouselWrapper.scrollBy({
+      left: scrollDistance,
+      behavior: 'smooth'
+    });
   }
+}
   </script>
-  <script src="/js/analytics.js"></script>
-  <script src="/js/g.js"></script>
 </body>
 </html>
