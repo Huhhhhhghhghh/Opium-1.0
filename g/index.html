@@ -233,11 +233,10 @@
       document.body.classList.add('loaded');
     });
 
-let scrollInterval;
-
 function moveCarousel(direction) {
   const carouselWrapper = document.querySelector('.carousel-wrapper');
   const scrollDistance = 5;
+  let scrollInterval;
   
   function scroll() {
     if (direction === 'left') {
@@ -252,25 +251,37 @@ function moveCarousel(direction) {
       });
     }
   }
-  
-  function init() {
-    scrollInterval = setInterval(scroll, 10);
+
+ function init() {
+    scrollInterval = setInterval(scroll, 50);
   }
-  
+
   function cease() {
     clearInterval(scrollInterval);
   }
-  
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'ArrowLeft') {
-      init('left');
-    } else if (event.key === 'ArrowRight') {
-      init('right');
+
+  document.addEventListener('mousedown', function(event) {
+    if (event.target.classList.contains('left-arrow') && direction === 'left') {
+      init();
+    } else if (event.target.classList.contains('right-arrow') && direction === 'right') {
+      init();
     }
   });
-  
-  document.addEventListener('keyup', () => {
-    cease();
+
+  document.addEventListener('mouseup', function(event) {
+    if (event.target.classList.contains('left-arrow') && direction === 'left') {
+      cease();
+    } else if (event.target.classList.contains('right-arrow') && direction === 'right') {
+      cease();
+    }
+  });
+
+  document.addEventListener('mouseout', function(event) {
+    if (event.target.classList.contains('left-arrow') && direction === 'left') {
+      cease();
+    } else if (event.target.classList.contains('right-arrow') && direction === 'right') {
+      cease();
+    }
   });
 }
   </script>
