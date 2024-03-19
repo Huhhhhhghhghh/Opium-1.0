@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
+main {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
 }
@@ -38,4 +38,5 @@ input:focus {
 .proxy-title {
   font-size: 3.5em;
   margin-bottom: 0;
+  font-weight: bold;
 }
