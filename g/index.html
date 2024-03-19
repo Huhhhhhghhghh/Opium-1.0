@@ -233,53 +233,46 @@
       document.body.classList.add('loaded');
     });
 
-function moveCarousel(direction, carouselWrapper) {
-  const scrollDistance = 300;
+let scrollInterval;
+
+function moveCarousel(direction) {
+  const carouselWrapper = document.querySelector('.carousel-wrapper');
+  const scrollDistance = 5;
   
-  if (direction === 'left') {
-    carouselWrapper.scrollBy({
-      left: -scrollDistance,
-      behavior: 'smooth'
-    });
-  } else if (direction === 'right') {
-    carouselWrapper.scrollBy({
-      left: scrollDistance,
-      behavior: 'smooth'
-    });
+  function scroll() {
+    if (direction === 'left') {
+      carouselWrapper.scrollBy({
+        left: -scrollDistance,
+        behavior: 'smooth'
+      });
+    } else if (direction === 'right') {
+      carouselWrapper.scrollBy({
+        left: scrollDistance,
+        behavior: 'smooth'
+      });
+    }
   }
-}
-
-document.querySelectorAll('.carousel-wrapper').forEach(function(carouselWrapper) {
-  let startX;
-  let startY;
-  let isScrolling = false;
-
-  carouselWrapper.addEventListener('touchstart', function(event) {
-    startX = event.touches[0].clientX;
-    startY = event.touches[0].clientY;
-    isScrolling = true;
-  });
-
-  carouselWrapper.addEventListener('touchmove', function(event) {
-    if (!isScrolling) return;
-    
-    const endX = event.touches[0].clientX;
-    const endY = event.touches[0].clientY;
-
-    const diffX = startX - endX;
-    const diffY = startY - endY;
-
-    if (Math.abs(diffX) > Math.abs(diffY)) {
-      event.preventDefault();
-      if (diffX > 0) {
-        moveCarousel('right', carouselWrapper);
-      } else {
-        moveCarousel('left', carouselWrapper);
-      }
-      isScrolling = false;
+  
+  function init() {
+    scrollInterval = setInterval(scroll, 10);
+  }
+  
+  function cease() {
+    clearInterval(scrollInterval);
+  }
+  
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') {
+      init('left');
+    } else if (event.key === 'ArrowRight') {
+      init('right');
     }
   });
-});
+  
+  document.addEventListener('keyup', () => {
+    cease();
+  });
+}
   </script>
   <script src="/js/analytics.js"></script>
   <script src="/js/g.js"></script>
