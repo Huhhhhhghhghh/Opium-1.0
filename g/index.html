@@ -261,25 +261,25 @@ function moveCarousel(direction) {
   }
 
   document.addEventListener('mousedown', function(event) {
-    if (event.target.classList.contains('left-arrow') && direction === 'left') {
+    if (event.target.classList.contains('arrow-left') && direction === 'left') {
       init();
-    } else if (event.target.classList.contains('right-arrow') && direction === 'right') {
+    } else if (event.target.classList.contains('arrow-right') && direction === 'right') {
       init();
     }
   });
 
   document.addEventListener('mouseup', function(event) {
-    if (event.target.classList.contains('left-arrow') && direction === 'left') {
+    if (event.target.classList.contains('arrow-left') && direction === 'left') {
       cease();
-    } else if (event.target.classList.contains('right-arrow') && direction === 'right') {
+    } else if (event.target.classList.contains('arrow-right') && direction === 'right') {
       cease();
     }
   });
 
   document.addEventListener('mouseout', function(event) {
-    if (event.target.classList.contains('left-arrow') && direction === 'left') {
+    if (event.target.classList.contains('arrow-left') && direction === 'left') {
       cease();
-    } else if (event.target.classList.contains('right-arrow') && direction === 'right') {
+    } else if (event.target.classList.contains('arrow-right') && direction === 'right') {
       cease();
     }
   });
