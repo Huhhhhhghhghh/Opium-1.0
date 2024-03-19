@@ -2,7 +2,7 @@
 
 main {
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+  min-height: 100vh;
 }
 
 form {
