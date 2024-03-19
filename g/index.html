@@ -252,13 +252,17 @@ function moveCarousel(direction, carouselWrapper) {
 document.querySelectorAll('.carousel-wrapper').forEach(function(carouselWrapper) {
   let startX;
   let startY;
+  let isScrolling = false;
 
   carouselWrapper.addEventListener('touchstart', function(event) {
     startX = event.touches[0].clientX;
     startY = event.touches[0].clientY;
+    isScrolling = true;
   });
 
   carouselWrapper.addEventListener('touchmove', function(event) {
+    if (!isScrolling) return;
+    
     const endX = event.touches[0].clientX;
     const endY = event.touches[0].clientY;
 
@@ -272,6 +276,7 @@ document.querySelectorAll('.carousel-wrapper').forEach(function(carouselWrapper)
       } else {
         moveCarousel('left', carouselWrapper);
       }
+      isScrolling = false;
     }
   });
 });
