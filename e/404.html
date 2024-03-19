@@ -46,20 +46,6 @@
   <link href="/css/main.css" rel="stylesheet" type="text/css" />
   <link href="/css/portable.css" rel="stylesheet" type="text/css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css" />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-    body {
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-      font-family: 'Roboto', sans-serif;
-    }
-
-    body.loaded {
-      opacity: 1;
-    }
-    </style>
-
   <!-- 404 CSS since it's short af -->
   <style>
     .err-title {
@@ -96,14 +82,10 @@ main {
     <p class="err-title">404</p>
     <p class="err-desc">The page you entered either dosen't exist or has been deleted, please navigate to another page, or return to the home page.</p>
     <button class="play-btn" id="play-btn" onclick="window.location.href='/';">Return To Home</button>
+    <button class="play-btn" id="play-btn" onclick="javascript: history.go(-1);">Go To Previous Page</button>
     <br>
     <br>
   </main>
     <script src="/js/footer.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      document.body.classList.add('loaded');
-    });
-  </script>
 </body>
 </html>
