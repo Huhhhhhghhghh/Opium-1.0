@@ -49,16 +49,6 @@
   <link href="/css/g.css" rel="stylesheet" type="text/css" />
   <link href="/css/portable.css" rel="stylesheet" type="text/css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css" />
-  <style>
-    body {
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-
-    body.loaded {
-      opacity: 1;
-    }
-    </style>
 </head>
 <body>
   <script src="/js/header.js"></script>
@@ -230,10 +220,6 @@
   <br>
   <script src="/js/footer.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      document.body.classList.add('loaded');
-    });
-
 function moveCarousel(direction) {
   const carouselWrapper = document.querySelector('.carousel-wrapper');
   const scrollDistance = 5;
