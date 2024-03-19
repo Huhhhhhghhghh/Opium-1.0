@@ -236,7 +236,6 @@
 function moveCarousel(direction) {
   const carouselWrapper = document.querySelector('.carousel-wrapper');
   const scrollDistance = 5;
-  let scrollInterval;
   
   function scroll() {
     if (direction === 'left') {
@@ -251,39 +250,6 @@ function moveCarousel(direction) {
       });
     }
   }
-
- function init() {
-    scrollInterval = setInterval(scroll, 50);
-  }
-
-  function cease() {
-    clearInterval(scrollInterval);
-  }
-
-  document.addEventListener('mousedown', function(event) {
-    if (event.target.classList.contains('arrow-left') && direction === 'left') {
-      init();
-    } else if (event.target.classList.contains('arrow-right') && direction === 'right') {
-      init();
-    }
-  });
-
-  document.addEventListener('mouseup', function(event) {
-    if (event.target.classList.contains('arrow-left') && direction === 'left') {
-      cease();
-    } else if (event.target.classList.contains('arrow-right') && direction === 'right') {
-      cease();
-    }
-  });
-
-  document.addEventListener('mouseout', function(event) {
-    if (event.target.classList.contains('arrow-left') && direction === 'left') {
-      cease();
-    } else if (event.target.classList.contains('arrow-right') && direction === 'right') {
-      cease();
-    }
-  });
-}
   </script>
   <script src="/js/analytics.js"></script>
   <script src="/js/g.js"></script>
