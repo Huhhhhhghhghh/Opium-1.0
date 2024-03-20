@@ -3,6 +3,7 @@
 main {
   font-family: 'Roboto', sans-serif;
   height: 100%;
+  background-size: cover;
 }
 
 form {
