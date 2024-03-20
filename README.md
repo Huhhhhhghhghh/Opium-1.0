@@ -6,7 +6,7 @@
 
 <h1 align="center">Opium Version 1.0</h1>
 
-🕹Go past the boundaries with Opium! Our service hosts over 100+ unblocked games, includes many selectable proxies, emulators, and tab cloakers. And guess what? All of it is free with no fees at all for anything! 🎮
+🕹Go past the boundaries with Opium! Our service hosts over 100+ unblocked games, includes a built in UV proxy, and many configuartion settings to easily make your engagement in Opium better. And guess what? All of it is free with no fees at all for anything! 🎮
 
 **New Features**
 
