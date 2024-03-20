@@ -5,6 +5,12 @@ main {
   height: 100%;
 }
 
+.proxy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 form {
   position: relative;
   text-align: center;
