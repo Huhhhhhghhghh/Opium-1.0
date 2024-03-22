@@ -16,10 +16,8 @@
   flex: 1;
   display: inline-flex;
   flex-direction: column;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  left: 10px;
+  text-align: center;
+  bottom: 10px;
   margin: 0;
   padding: 0;
   opacity: 0;
@@ -32,7 +30,7 @@
 }
 
 .game-title {
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 
 .carousel-wrapper {
@@ -69,18 +67,6 @@
   height: 100%;
   border-radius: 10px 10px 0 0;
   transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
-}
-
-.underline {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 5px;
-  background-color: #c43131;
-  transform: scaleY(0);
-  transform-origin: bottom;
-  transition: transform 0.3s ease;
 }
 
 .game-btn:hover .game-title {
