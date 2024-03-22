@@ -13,15 +13,26 @@
 }
 
 .game-title {
+  flex: 1;
   display: inline-flex;
-  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  left: 10px;
   margin: 0;
   padding: 0;
+  opacity: 0;
   color: white;
+  font-weight: bold;
   text-shadow: 0 0 15px #000;
   pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 1;
-  font-size: 16px;
+}
+
+.game-title {
+  font-size: 1.6em;
 }
 
 .carousel-wrapper {
@@ -40,8 +51,8 @@
 
 .game-btn {
   z-index: 2;
-  width: 191px;
-  height: 286.5px;
+  width: 300px;
+  height: 175px;
   overflow: hidden;
   border-radius: 10px;
   margin-right: 20px;
@@ -58,6 +69,22 @@
   height: 100%;
   border-radius: 10px 10px 0 0;
   transition: transform 0.3s ease, filter 0.3s ease, opacity 0.3s ease;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #c43131;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.3s ease;
+}
+
+.game-btn:hover .game-title {
+  opacity: 1;
 }
 
 .game-img:hover {
@@ -102,4 +129,3 @@
 .arrow-left:active {
   background-color: #1B1C24;
 }
-
