@@ -201,5 +201,12 @@
     "img": "/i/g/super-smash-flash.avif",
     "directory": "/g/super-smash-flash",
     "tags": ["action", "multiplayer", "flash", "platformer"]
+  },
+  {
+    "ID": 30,
+    "title": "NBA Jam",
+    "img": "/i/g/nba-jam.jpg",
+    "directory": "/g/nba-jam",
+    "tags": ["sports", "multiplayer", "emulator"]
   }
 ]
