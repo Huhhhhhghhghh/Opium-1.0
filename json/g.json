@@ -145,5 +145,12 @@
     "img": "/i/g/hacker-typer.jpg",
     "directory": "/g/hacker-typer",
     "tags": ["idle"]
+  },
+  {
+    "ID": 22,
+    "title": "Solitaire",
+    "img": "/i/g/google-solitaire.png",
+    "directory": "/g/solitaire",
+    "tags": ["mobile", "puzzle"]
   }
 ]
