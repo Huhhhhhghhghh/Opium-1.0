@@ -159,5 +159,12 @@
     "img": "/i/g/doge-miner.jpg",
     "directory": "/g/doge-miner",
     "tags": ["mobile", "idle"]
+  },
+  {
+    "ID": 24,
+    "title": "Zombocalypse",
+    "img": "/i/g/zombocalypse.avif",
+    "directory": "/g/zombocalypse",
+    "tags": ["action", "flash"]
   }
 ]
