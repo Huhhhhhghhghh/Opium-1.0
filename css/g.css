@@ -98,7 +98,6 @@
 
 .arrow-left,
 .arrow-right {
-  position: relative;
   margin-right: 100px;
   margin-left: 100px;
   display: flex;
