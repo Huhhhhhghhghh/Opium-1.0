@@ -166,5 +166,12 @@
     "img": "/i/g/zombocalypse.avif",
     "directory": "/g/zombocalypse",
     "tags": ["action", "flash"]
+  },
+  {
+    "ID": 25,
+    "title": "EaglercraftX 1.8",
+    "img": "/i/g/eaglercraft.png",
+    "directory": "/g/eaglercraft-1.8",
+    "tags": ["action", "multiplayer", "emulator"]
   }
 ]
