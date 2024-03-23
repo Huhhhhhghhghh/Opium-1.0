@@ -47,6 +47,7 @@
   justify-content: flex-start;
   width: auto;
   overflow: hidden;
+  linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0))
 }
 
 .game-btn {
