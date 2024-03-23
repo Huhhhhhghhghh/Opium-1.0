@@ -194,5 +194,12 @@
     "img": "/i/g/gun-mayhem-2.jpg",
     "directory": "/g/gun-mayhem-2",
     "tags": ["action", "multiplayer", "flash"]
+  },
+  {
+    "ID": 29,
+    "title": "Super Smash Flash",
+    "img": "/i/g/super-smash-flash.avif",
+    "directory": "/g/super-smash-flash",
+    "tags": ["action", "multiplayer", "flash", "platformer"]
   }
 ]
