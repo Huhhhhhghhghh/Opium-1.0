@@ -5,7 +5,7 @@ document.write(`
     <a href="/g/">Games</a>
     <a href="/p/">Proxy</a>
     <a href="/e/m.html">Mirrors</a>
-    <a href="/e/b.html">Blog</a>
+    <a href="/e/p.html">Partners</a>
     <a href="/e/s.html">Settings</a>
   </nav>
   <div id="right">
