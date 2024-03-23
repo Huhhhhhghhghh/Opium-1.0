@@ -98,6 +98,7 @@
 
 .arrow-left,
 .arrow-right {
+  transform: translateY(175%);
   position: absolute;
   margin-right: 100px;
   margin-left: 100px;
