@@ -187,5 +187,12 @@
     "img": "/i/g/eaglercraft.png",
     "directory": "/g/eaglercraft-1.3",
     "tags": ["action", "multiplayer", "emulator"]
+  },
+  {
+    "ID": 28,
+    "title": "Gun Mayhem 2",
+    "img": "/i/g/gun-mayhem-2.jpg",
+    "directory": "/g/gun-mayhem-2",
+    "tags": ["action", "multiplayer", "flash"]
   }
 ]
