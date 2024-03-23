@@ -152,5 +152,12 @@
     "img": "/i/g/google-solitaire.png",
     "directory": "/g/solitaire",
     "tags": ["mobile", "puzzle"]
+  },
+  {
+    "ID": 23,
+    "title": "Doge Miner",
+    "img": "/i/g/doge-miner.jpg",
+    "directory": "/g/doge-miner",
+    "tags": ["mobile", "idle"]
   }
 ]
