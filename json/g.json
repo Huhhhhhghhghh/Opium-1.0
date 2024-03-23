@@ -138,5 +138,12 @@
     "img": "/i/g/tube-jumpers.jpg",
     "directory": "/g/tube-jumpers",
     "tags": ["multiplayer", "unity"]
+  },
+  {
+    "ID": 21,
+    "title": "Hacker Typer",
+    "img": "/i/g/hacker-typer.jpg",
+    "directory": "/g/hacker-typer",
+    "tags": ["idle"]
   }
 ]
