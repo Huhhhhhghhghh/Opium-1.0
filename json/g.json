@@ -173,5 +173,19 @@
     "img": "/i/g/eaglercraft.png",
     "directory": "/g/eaglercraft-1.8",
     "tags": ["action", "multiplayer", "emulator"]
+  },
+  {
+    "ID": 26,
+    "title": "EaglercraftX 1.5.2",
+    "img": "/i/g/eaglercraft.png",
+    "directory": "/g/eaglercraft-1.5.2",
+    "tags": ["action", "multiplayer", "emulator"]
+  },
+  {
+    "ID": 27,
+    "title": "EaglercraftX 1.3",
+    "img": "/i/g/eaglercraft.png",
+    "directory": "/g/eaglercraft-1.3",
+    "tags": ["action", "multiplayer", "emulator"]
   }
 ]
