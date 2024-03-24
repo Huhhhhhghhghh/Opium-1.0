@@ -286,5 +286,13 @@
     "directory": "/p/g/fortnite",
     "proxy": true,
     "tags": ["proxy", "action", "mobile", "multiplayer", "platformer"]
+  },
+  {
+    "ID": 36,
+    "title": "Chess.com",
+    "img": "/i/p/chess-com.png",
+    "directory": "/p/g/chess",
+    "proxy": true,
+    "tags": ["proxy", "strategy", "mobile", "multiplayer"]
   }
 ]
