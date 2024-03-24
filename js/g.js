@@ -22,6 +22,7 @@ function ver() {
                                 gameButton.innerHTML = `
                                     <a href="${game.directory}" class="game-button">
                                         <p class="game-title">${game.title}</p>
+                                        <p class="proxy-banner">Proxy</p>
                                         <img class="game-img" src="${game.img}" alt="${game.title}">
                                         <div class="underline"></div>
                                     </a>
