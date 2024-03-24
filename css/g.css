@@ -132,8 +132,8 @@
 
 .proxy-banner {
   position: absolute;
-  top: 15px;
-  left: 5px;
+  top: 25px;
+  left: 10px;
   margin-right: 10px;
   background-color: #c43131;
   color: #fff;
@@ -142,4 +142,10 @@
   font-size: 20px;
   font-weight: bold;
   z-index: 1;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.game-btn:hover .proxy-banner {
+  opacity: 1;
 }
