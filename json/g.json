@@ -186,7 +186,7 @@
   {
     "ID": 24,
     "title": "Zombocalypse",
-    "img": "/i/g/zombocalypse.avif",
+    "img": "/i/g/zombocalypse.png",
     "directory": "/g/zombocalypse",
     "proxy": false,
     "tags": ["action", "flash"]
@@ -226,7 +226,7 @@
   {
     "ID": 29,
     "title": "Super Smash Flash",
-    "img": "/i/g/super-smash-flash.avif",
+    "img": "/i/g/super-smash-flash.png",
     "directory": "/g/super-smash-flash",
     "proxy": false,
     "tags": ["action", "multiplayer", "flash", "platformer"]
@@ -278,5 +278,13 @@
     "directory": "/p/g/genshin-impact",
     "proxy": true,
     "tags": ["proxy", "action", "mobile"]
+  },
+  {
+    "ID": 35,
+    "title": "NowGG Fortnite",
+    "img": "/i/p/fortnite.jpg",
+    "directory": "/p/g/fortnite",
+    "proxy": true,
+    "tags": ["proxy", "action", "mobile", "multiplayer", "platformer"]
   }
 ]
