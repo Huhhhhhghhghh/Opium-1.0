@@ -294,5 +294,13 @@
     "directory": "/p/g/chess",
     "proxy": true,
     "tags": ["proxy", "strategy", "mobile", "multiplayer"]
+  },
+  {
+    "ID": 37,
+    "title": "Doodle Jump",
+    "img": "/i/p/doodle-jump.jpg",
+    "directory": "/g/doodle-jump",
+    "proxy": false,
+    "tags": ["platformer"]
   }
 ]
