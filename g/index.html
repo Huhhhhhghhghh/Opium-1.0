@@ -250,6 +250,31 @@
         });
       }
     }
+
+function handleTouchStart(e) {
+  touchStartX = e.touches[0].clientX;
+}
+
+function handleTouchMove(e, category) {
+  if (!touchStartX) return;
+  
+  const touchEndX = e.touches[0].clientX;
+  const deltaX = touchEndX - touchStartX;
+  
+  if (deltaX > 50) {
+    moveCarousel(category, 'left');
+  } else if (deltaX < -50) {
+    moveCarousel(category, 'right');
+  }
+  
+  touchStartX = null;
+}
+
+let touchStartX = null;
+const carouselWrapper = document.getElementById('carousel-wrapper');
+
+carouselWrapper.addEventListener('touchstart', (e) => handleTouchStart(e));
+carouselWrapper.addEventListener('touchmove', (e) => handleTouchMove(e, 'carousel-wrapper'));
   </script>
 </body>
 </html>
