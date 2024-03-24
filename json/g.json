@@ -4,6 +4,7 @@
     "title": "Slope",
     "img": "/i/g/slope.jpg",
     "directory": "/g/slope",
+    "proxy": false,
     "tags": ["unity", "platformer"]
   },
   {
@@ -11,6 +12,7 @@
     "title": "Getaway Shootout",
     "img": "/i/g/getaway-shootout.png",
     "directory": "/g/getaway-shootout",
+    "proxy": false,
     "tags": ["unity", "multiplayer", "action"]
   },
   {
@@ -18,6 +20,7 @@
     "title": "Gun Mayhem",
     "img": "/i/g/gun-mayhem.jpg",
     "directory": "/g/gun-mayhem",
+    "proxy": false,
     "tags": ["flash", "action", "multiplayer"]
   },
   {
@@ -25,6 +28,7 @@
     "title": "Super Mario 64",
     "img": "/i/g/sm-64.jpg",
     "directory": "/g/sm64",
+    "proxy": false,
     "tags": ["platformer", "emulator"]
   },
   {
@@ -32,6 +36,7 @@
     "title": "2048",
     "img": "/i/g/2048.png",
     "directory": "/g/2048",
+    "proxy": false,
     "tags": ["mobile", "puzzle"]
   },
   {
@@ -39,6 +44,7 @@
     "title": "Google Snake",
     "img": "/i/g/g-snake.png",
     "directory": "/g/google-snake",
+    "proxy": false,
     "tags": ["mobile"]
   },
   {
@@ -46,6 +52,7 @@
     "title": "Drift Hunters",
     "img": "/i/g/drift-hunters.png",
     "directory": "/g/drift-hunters",
+    "proxy": false,
     "tags": ["driving", "unity"]
   },
   {
@@ -53,6 +60,7 @@
     "title": "A Dark Room",
     "img": "/i/g/adr.png",
     "directory": "/g/adr",
+    "proxy": false,
     "tags": ["puzzle"]
   },
   {
@@ -60,6 +68,7 @@
     "title": "The Legend Of Zelda: Ocarina of Time",
     "img": "/i/g/zelda-ocarina.jpg",
     "directory": "/g/zelda-ocarina",
+    "proxy": false,
     "tags": ["emulator", "action"]
   },
   {
@@ -67,6 +76,7 @@
     "title": "Amazing Strange Rope Police",
     "img": "/i/g/amazing-rope.png",
     "directory": "/g/amazing-rope",
+    "proxy": false,
     "tags": ["unity", "action"]
   },
   {
@@ -74,6 +84,7 @@
     "title": "Baldi's Basics",
     "img": "/i/g/baldi.png",
     "directory": "/g/baldis-basics",
+    "proxy": false,
     "tags": ["unity", "puzzle", "strategy"]
   },
   {
@@ -81,6 +92,7 @@
     "title": "Subway Surfers: NYC",
     "img": "/i/g/subway-ny.png",
     "directory": "/g/subway-surfers-ny",
+    "proxy": false,
     "tags": ["unity", "action", "platformer"]
   },
   {
@@ -88,6 +100,7 @@
     "title": "Subway Surfers: Singapore",
     "img": "/i/g/subway-singapore.png",
     "directory": "/g/subway-surfers-singapore",
+    "proxy": false,
     "tags": ["unity", "action", "platformer"]
   },
   {
@@ -95,6 +108,7 @@
     "title": "Cookie Clicker",
     "img": "/i/g/cookie-clicker.png",
     "directory": "/g/cookie-clicker",
+    "proxy": false,
     "tags": ["mobile", "idle"]
   },
   {
@@ -102,6 +116,7 @@
     "title": "Creative Kill Chamber",
     "img": "/i/g/ckc.png",
     "directory": "/g/creative-kill-chamber",
+    "proxy": false,
     "tags": ["flash", "action", "puzzle"]
   },
   {
@@ -109,6 +124,7 @@
     "title": "Retro Bowl",
     "img": "/i/g/retro-bowl.png",
     "directory": "/g/retro-bowl",
+    "proxy": false,
     "tags": ["sports"]
   },
   {
@@ -116,6 +132,7 @@
     "title": "Street Fighter 2",
     "img": "/i/g/street-fighter-2.jpg",
     "directory": "/g/street-fighter-2",
+    "proxy": false,
     "tags": ["sports", "emulator", "action"]
   },
   {
@@ -123,6 +140,7 @@
     "title": "Bloon's Tower Defense",
     "img": "/i/g/btd.jpg",
     "directory": "/g/btd",
+    "proxy": false,
     "tags": ["flash", "strategy"]
   },
   {
@@ -130,6 +148,7 @@
     "title": "Rooftop Snipers",
     "img": "/i/g/rooftop-snipers.jpg",
     "directory": "/g/rooftop-snipers",
+    "proxy": false,
     "tags": ["multiplayer", "action", "unity"]
   },
   {
@@ -137,6 +156,7 @@
     "title": "Tube Jumpers",
     "img": "/i/g/tube-jumpers.jpg",
     "directory": "/g/tube-jumpers",
+    "proxy": false,
     "tags": ["multiplayer", "unity"]
   },
   {
@@ -144,6 +164,7 @@
     "title": "Hacker Typer",
     "img": "/i/g/hacker-typer.jpg",
     "directory": "/g/hacker-typer",
+    "proxy": false,
     "tags": ["idle"]
   },
   {
@@ -151,6 +172,7 @@
     "title": "Solitaire",
     "img": "/i/g/google-solitaire.png",
     "directory": "/g/solitaire",
+    "proxy": false,
     "tags": ["mobile", "puzzle"]
   },
   {
@@ -158,6 +180,7 @@
     "title": "Doge Miner",
     "img": "/i/g/doge-miner.jpg",
     "directory": "/g/doge-miner",
+    "proxy": false,
     "tags": ["mobile", "idle"]
   },
   {
@@ -165,6 +188,7 @@
     "title": "Zombocalypse",
     "img": "/i/g/zombocalypse.avif",
     "directory": "/g/zombocalypse",
+    "proxy": false,
     "tags": ["action", "flash"]
   },
   {
@@ -172,6 +196,7 @@
     "title": "EaglercraftX 1.8",
     "img": "/i/g/eaglercraft.png",
     "directory": "/g/eaglercraft-1.8",
+    "proxy": false,
     "tags": ["action", "multiplayer", "emulator"]
   },
   {
@@ -179,6 +204,7 @@
     "title": "EaglercraftX 1.5.2",
     "img": "/i/g/eaglercraft.png",
     "directory": "/g/eaglercraft-1.5.2",
+    "proxy": false,
     "tags": ["action", "multiplayer", "emulator"]
   },
   {
@@ -186,6 +212,7 @@
     "title": "EaglercraftX 1.3",
     "img": "/i/g/eaglercraft.png",
     "directory": "/g/eaglercraft-1.3",
+    "proxy": false,
     "tags": ["action", "multiplayer", "emulator"]
   },
   {
@@ -193,6 +220,7 @@
     "title": "Gun Mayhem 2",
     "img": "/i/g/gun-mayhem-2.jpg",
     "directory": "/g/gun-mayhem-2",
+    "proxy": false,
     "tags": ["action", "multiplayer", "flash"]
   },
   {
@@ -200,6 +228,7 @@
     "title": "Super Smash Flash",
     "img": "/i/g/super-smash-flash.avif",
     "directory": "/g/super-smash-flash",
+    "proxy": false,
     "tags": ["action", "multiplayer", "flash", "platformer"]
   },
   {
@@ -207,6 +236,7 @@
     "title": "NBA Jam",
     "img": "/i/g/nba-jam.png",
     "directory": "/g/nba-jam",
+    "proxy": false,
     "tags": ["sports", "multiplayer", "emulator"]
   },
   {
@@ -214,6 +244,7 @@
     "title": "NowGG Roblox",
     "img": "/i/p/roblox.jpg",
     "directory": "/p/g/roblox",
+    "proxy": true,
     "tags": ["proxy", "action", "multiplayer"]
   },
   {
@@ -221,6 +252,7 @@
     "title": "AsianF4rmer",
     "img": "/i/p/asianf4rmer.jpg",
     "directory": "/p/g/asianf4rmer",
+    "proxy": true,
     "tags": ["proxy", "action", "multiplayer", "emulator"]
   },
   {
@@ -228,6 +260,15 @@
     "title": "Shell Shockers",
     "img": "/i/p/shell-shockers.jpg",
     "directory": "/p/g/shell-shockers",
+    "proxy": true,
     "tags": ["proxy", "multiplayer", "action"]
+  },
+  {
+    "ID": 33,
+    "title": "Stumble Guys",
+    "img": "/i/p/stumble-guys.jpg",
+    "directory": "/p/g/stumble-guys",
+    "proxy": true,
+    "tags": ["proxy", "multiplayer", "action", "platformer"]
   }
 ]
