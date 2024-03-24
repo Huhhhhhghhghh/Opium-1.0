@@ -132,8 +132,9 @@
 
 .proxy-banner {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
+  margin-right: 10px;
   background-color: #c43131;
   color: #fff;
   padding: 5px 10px;
