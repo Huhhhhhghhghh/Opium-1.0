@@ -270,5 +270,13 @@
     "directory": "/p/g/stumble-guys",
     "proxy": true,
     "tags": ["proxy", "multiplayer", "action", "platformer"]
+  },
+  {
+    "ID": 34,
+    "title": "NowGG Genshin Impact",
+    "img": "/i/p/genshin-impact.jpg",
+    "directory": "/p/g/genshin-impact",
+    "proxy": true,
+    "tags": ["proxy", "action", "mobile"]
   }
 ]
