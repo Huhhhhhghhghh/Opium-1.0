@@ -129,11 +129,3 @@
 .arrow-left:active {
   background-color: #1B1C24;
 }
-
-.proxy-banner {
-  background-color: #c43131;
-  color: #fff;
-  width: auto;
-  height: auto;
-  font-size: 0.6em;
-}
