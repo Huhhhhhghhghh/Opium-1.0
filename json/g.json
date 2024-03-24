@@ -214,13 +214,20 @@
     "title": "NowGG Roblox",
     "img": "/i/p/roblox.jpg",
     "directory": "/p/g/roblox",
-    "tags": ["proxy"]
+    "tags": ["proxy", "action", "multiplayer"]
   },
   {
     "ID": 31,
     "title": "AsianF4rmer",
     "img": "/i/p/asianf4rmer.jpg",
     "directory": "/p/g/asianf4rmer",
-    "tags": ["proxy"]
+    "tags": ["proxy", "action", "multiplayer", "emulator"]
+  },
+  {
+    "ID": 32,
+    "title": "Shell Shockers",
+    "img": "/i/p/shell-shockers",
+    "directory": "/p/g/shell-shockers",
+    "tags": ["proxy", "multiplayer", "action"]
   }
 ]
