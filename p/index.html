@@ -53,7 +53,7 @@
   <main>
     <div class="proxy">
       <p class="proxy-title">Opium Proxy</p>
-      <form>
+      <form onkeydown="if(event.key == 'Enter'){location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`}" onsubmit="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('inputb').value)}`">
       <input type="text" placeholder="Enter A URL">
       </form>
     </div>
