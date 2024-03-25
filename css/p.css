@@ -18,7 +18,7 @@ form {
   margin-top: 20px;
 }
 
-input {
+#search-bar {
   color: #ffffff;
   font-size: 1.9em;
   width: 50vw;
@@ -30,11 +30,11 @@ input {
   font-family: 'Roboto', sans-serif;
 }
 
-input::placeholder {
+#search-bar::placeholder {
   color: #ADB0B7;
 }
 
-input:focus {
+#search-bar:focus {
   outline: none;
   border-color: transparent;
 }
