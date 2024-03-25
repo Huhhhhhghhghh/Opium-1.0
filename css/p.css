@@ -20,13 +20,16 @@ form {
 
 #search-bar {
   color: #ffffff;
-  font-size: 1.9em;
-  width: 50vw;
-  height: 100px;
-  border-radius: 4px;
   background-color: #35363E;
   border: none;
-  padding-right: 45px;
+  border-radius: calc(0.5 * 44px);
+  font-size: 16px;
+  outline: none;
+  padding-inline-end: 40px;
+  padding-inline-start: 52px;
+  position: relative;
+  width: 80%;
+  height: 44px;
   font-family: 'Roboto', sans-serif;
 }
 
