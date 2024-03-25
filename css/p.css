@@ -24,14 +24,14 @@ form {
   color: #ffffff;
   background-color: #35363E;
   border: none;
-  border-radius: calc(0.5 * 44px);
+  border-radius: 4px;
   font-size: 16px;
   outline: none;
   padding-inline-end: 40px;
   padding-inline-start: 52px;
   position: relative;
   width: 80%;
-  height: 44px;
+  height: 40%;
   font-family: 'Roboto', sans-serif;
 }
 
