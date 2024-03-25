@@ -302,5 +302,13 @@
     "directory": "/g/doodle-jump",
     "proxy": false,
     "tags": ["platformer"]
+  },
+  {
+    "ID": 38,
+    "title": "Yohoho.io",
+    "img": "/i/g/yohoho-io.jpg",
+    "directory": "/g/yohoho-io",
+    "proxy": false,
+    "tags": ["multiplayer", "action", "mobile"]
   }
 ]
