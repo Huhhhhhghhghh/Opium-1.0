@@ -54,17 +54,6 @@
     <div class="proxy">
       <p class="proxy-title">Opium Proxy</p>
       <form onkeydown="if(event.key == 'Enter'){location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('search-bar').value)}`}" onsubmit="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('search-bar').value)}`">
-      <input id="search-bar" type="text" placeholder="Enter A URL">
-				<input
-					id="enter"
-					onclick="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('search-bar').value)}`"
-					type="image"
-					value="Search"
-					src="/i/l/search.svg"
-					height="24"
-					width="24"
-				/>
-	<input type="submit" style="display: none" />
       </form>
     </div>
   </main>
