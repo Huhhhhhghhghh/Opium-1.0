@@ -30,8 +30,8 @@ form {
   padding-inline-end: 40px;
   padding-inline-start: 52px;
   position: relative;
-  width: 80%;
-  height: 40%;
+  width: auto;
+  height: 175px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -50,10 +50,3 @@ form {
   font-weight: bold;
 }
 
-#enter {
-  position: absolute;
-  left: 0;
-  top: -1px;
-  padding-left: 14px;
-  outline: none;
-}
