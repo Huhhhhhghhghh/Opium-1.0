@@ -54,6 +54,7 @@
     <div class="proxy">
       <p class="proxy-title">Opium Proxy</p>
       <form onkeydown="if(event.key == 'Enter'){location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('search-bar').value)}`}" onsubmit="location.href=`${__uv$config.prefix}${xor.encode(window.parent.searchEngine+document.getElementById('search-bar').value)}`">
+       <input id="search-bar" type="text" placeholder="Enter A URL">
       </form>
     </div>
   </main>
@@ -62,5 +63,6 @@
   <script src="/js/footer.js"></script>
   <script src="/uv/uv.bundle.js"></script>
   <script src="/uv/uv.config.js"></script>
+  <script src="/js/encode.js"></script>
 </body>
 </html>
