@@ -310,5 +310,13 @@
     "directory": "/g/yohoho-io",
     "proxy": false,
     "tags": ["multiplayer", "action", "mobile"]
+  },
+  {
+    "ID": 39,
+    "title": "Madalin Stunt Cars 2",
+    "img": "/i/g/madalin-cars-2.jpg",
+    "directory": "/g/madalin-stunt-cars-2",
+    "proxy": false,
+    "tags": ["unity", "driving"]
   }
 ]
