@@ -30,8 +30,8 @@ form {
   padding-inline-end: 40px;
   padding-inline-start: 52px;
   position: relative;
-  width: auto;
-  height: 175px;
+  width: 100%;
+  height: 150px;
   font-family: 'Roboto', sans-serif;
 }
 
