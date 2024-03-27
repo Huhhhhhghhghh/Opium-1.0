@@ -11,25 +11,6 @@
 .frame {
   width: 922px;
   height: 532px;
-  left: 0px;
   border: none;
-  overflow: hidden;
-  align-items: center;
-  bottom: 0px;
-  box-sizing: border-box;
-  column-gap: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  line-height: 24px;
-  position: fixed;
-  right: 0px;
-  row-gap: 12px;
-  text-align: center;
-  text-size-adjust: 100%;
-  top: 0px;
-  unicode-bidi: isolate;
-  -webkit-box-align: center
-  -webkit-box-pack center
-  -webkit-font-smoothing antialiased
+  left: 0px;
 }
