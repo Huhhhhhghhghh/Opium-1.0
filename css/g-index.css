@@ -12,6 +12,9 @@
   width: 922px;
   height: 532px;
   border: none;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
   left: 0px;
 }
 
@@ -29,6 +32,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  position: absolute;
 }
 
 .game-index-title {
