@@ -29,6 +29,8 @@
   color: #fff;
   background-color: #121212;
   text-align: center;
+  align-items: center;
+  justify-content: spcae-between;
   margin: 0 auto;
 }
 
