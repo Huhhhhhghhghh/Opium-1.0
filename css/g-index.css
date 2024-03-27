@@ -32,11 +32,19 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  position: absolute;
 }
 
 .game-index-title {
   font-size: 25px;
   font-weight: bold;
   margin-left: 10px;
+}
+
+.right {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
