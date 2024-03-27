@@ -37,15 +37,3 @@
   font-weight: bold;
   margin-left: 10px;
 }
-
-.right {
-  position: absolute;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
