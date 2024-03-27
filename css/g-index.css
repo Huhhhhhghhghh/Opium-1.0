@@ -27,6 +27,7 @@
   background-color: rbg(33, 34, 51);
   text-align: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .game-index-title {
