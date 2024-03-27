@@ -7,3 +7,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.frame {
+  width: 922px;
+  height: 532px;
+  left: 0px;
+  border: none;
+}
