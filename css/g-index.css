@@ -48,3 +48,9 @@
   font-weight: bold;
   margin-left: 10px;
 }
+
+#right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
