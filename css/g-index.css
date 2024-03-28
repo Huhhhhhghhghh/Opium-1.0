@@ -1,3 +1,7 @@
+#game-frame {
+  position: relative;
+}
+
 .bar-divider {
   width: 1px;
   height: auto;
@@ -27,7 +31,7 @@
   background-position-x: 50%;
   background-position-y: 0%;
   color: #fff;
-  background-color: #1c1c1c;
+  background-color: #c43131;
   text-align: center;
   align-items: center;
   justify-content: space-between;
