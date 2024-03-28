@@ -50,3 +50,7 @@ input:focus {
   font-weight: bold;
 }
 
+#proxyFrame {
+  width: 100vw;
+  height: 100vh;
+}
