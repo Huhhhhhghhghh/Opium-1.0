@@ -52,7 +52,7 @@
 
 #right {
   flex-direction: row;
-  display: flex;
+  display: none;
 }
 
 .review,
