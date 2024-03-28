@@ -50,6 +50,6 @@
   display: flex;
 }
 
-#right .review {
+.review {
   display: inline-block;
 }
