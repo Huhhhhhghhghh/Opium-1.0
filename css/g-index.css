@@ -48,5 +48,10 @@
 
 #right {
   display: flex;
+}
+
+.review,
+.full,
+.redirect {
   display: inline-block;
 }
