@@ -27,6 +27,7 @@
   height: 45px;
   display: flex;
   flex-direction: row;
+  margin-top: -20px;
   flex-wrap: nowrap;
   background-position-x: 50%;
   background-position-y: 0%;
