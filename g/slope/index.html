@@ -74,8 +74,13 @@
   <script src="/js/review.js"></script>
   <script>
     function full() {
-      var iframe = document.getElementById('game-frame');
-      iframe.classList.toggle('fullscreen');
+      var iframe = document.getElementById('frame');
+      iframe.style.position = 'fixed';
+      iframe.style.top = '0';
+      iframe.style.left = '0';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.style.zIndex = '9999';
     }
   </script>
 </body>
