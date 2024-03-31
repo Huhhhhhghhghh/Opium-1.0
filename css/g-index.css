@@ -50,3 +50,10 @@
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 10px;
 }
+
+.full {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #fff;
+}
