@@ -72,5 +72,18 @@
   <br>
   <script src="/js/footer.js"></script>
   <script src="/js/review.js"></script>
+  <script>
+    function full() {
+      var gameBody = document.getElementById('game-body');
+      var gameFrame = document.getElementById('frame');
+      if (!gameBody.classList.contains('fullscreen')) {
+        gameBody.classList.add('fullscreen');
+        gameFrame.classList.add('fullscreen');
+      } else {
+        gameBody.classList.remove('fullscreen');
+        gameFrame.classList.remove('fullscreen');
+      }
+    }
+  </script>
 </body>
 </html>
