@@ -51,7 +51,8 @@
   grid-gap: 10px;
 }
 
-.full {
+.full,
+.redir {
   border: none;
   background-color: transparent;
   font-size: 25px;
