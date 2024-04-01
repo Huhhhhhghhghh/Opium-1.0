@@ -62,6 +62,8 @@
             <p class="game-index-title">Slope</p>
           </div>
           <div class="right">
+            <button class="redir" onclick="window.location.href='game/';"><i class="fas fa-arrow-up-right-from-square"></i></button>
+            <div class="bar-divider"></div>
             <button class="full" onclick="full()"><i class="fas fa-expand"></i></button>
           </div>
         </div>
@@ -73,15 +75,18 @@
   <script src="/js/footer.js"></script>
   <script src="/js/review.js"></script>
   <script>
-    function full() {
+  function full() {
       var iframe = document.getElementById('frame');
-      iframe.style.position = 'fixed';
-      iframe.style.top = '0';
-      iframe.style.left = '0';
-      iframe.style.width = '100%';
-      iframe.style.height = '100%';
-      iframe.style.zIndex = '9999';
-    }
+      if (iframe.requestFullscreen) {
+          iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) {
+          iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) {
+          iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) {
+          iframe.msRequestFullscreen();
+      }
+  }
   </script>
 </body>
 </html>
