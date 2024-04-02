@@ -48,16 +48,14 @@
 #right {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin-left: auto;
 }
 
-.full,
-.redir {
+#right .full,
+#right .redir {
   border: none;
   background-color: transparent;
   font-size: 25px;
   color: #fff;
   cursor: pointer;
-  margin-left: 10px;
+  margin-right: 10px;
 }
