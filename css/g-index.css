@@ -45,11 +45,16 @@
   margin-left: 10px;
 }
 
-.full,
-.redir {
+#right {
   display: block;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.full,
+.redir {
   border: none;
   background-color: transparent;
   font-size: 25px;
