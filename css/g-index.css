@@ -46,7 +46,7 @@
 }
 
 #right {
-  display: flex;
+  display: block;
   flex-direction: row;
   align-items: center;
 }
