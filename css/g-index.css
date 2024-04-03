@@ -31,13 +31,14 @@
   border: none;
   left: 0px;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   filter: blur(10px);
 }
 
 .play-title,
 .play-author,
 .play-button {
+  z-index: 3;
   position: absolute;
   bottom: 20px;
   left: 50%;
