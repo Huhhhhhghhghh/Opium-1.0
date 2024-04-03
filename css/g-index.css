@@ -44,7 +44,7 @@
 }
 
 #right {
-  display: inline-block;
+  display: block;
 }
 
 .full,
