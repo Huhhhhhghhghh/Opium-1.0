@@ -46,11 +46,8 @@
 }
 
 #right {
-  display: block;
-  flex-direction: row;
+  display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .full,
