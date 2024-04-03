@@ -30,9 +30,18 @@
   height: 532px;
   border: none;
   left: 0px;
-  position: relative;
+  position: absolute;
   z-index: 1;
   filter: blur(10px);
+}
+
+.play-title,
+.play-author,
+.play-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .play-title {
