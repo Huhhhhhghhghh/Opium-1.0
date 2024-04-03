@@ -59,12 +59,6 @@
   <main style="min-height: 100vh;">
     <div id="game-body">
       <div id="game-frame">
-        <div id="play-space" class="play-space">
-          <img src="/i/g/slope.jpg" class="play-bg">
-          <p class="play-title">Slope</p>
-          <p class="play-author">Rob Kay</p>
-          <button class="play-button" onclick="play()">Play Now</button>
-        </div>
         <iframe class="frame" id="frame" src="game/" frameborder="0"></iframe>
         <div class="game-bar">
           <div class="left">
@@ -128,15 +122,6 @@ function exitHandler() {
         cancelFullScreen();
     }
 }
-
-
-  function play() {
-      var iframeContainer = document.getElementById('play-space');
-      var iframe = document.getElementById('frame');
-      iframe.src = "game/";
-      iframe.style.display = "block";
-      iframeContainer.style.display = "none";
-  }
   </script>
 </body>
 </html>
