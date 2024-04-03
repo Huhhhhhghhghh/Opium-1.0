@@ -46,4 +46,23 @@
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100vw; height: 100vh; margin: 0;"></div>
     </div>
+<script>
+  function equilibrium() {
+    var gameContainer = document.getElementById('gameContainer');
+    gameContainer.style.width = '100vw';
+    gameContainer.style.height = '100vh';
+  }
+
+  equilibrium();
+
+  document.addEventListener('fullscreenchange', function () {
+    equilibrium();
+  });
+
+  window.addEventListener('message', function (event) {
+    if (event.data === 'fullscreen') {
+      equilibrium();
+    }
+  });
+</script>
 </body>
