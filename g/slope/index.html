@@ -49,6 +49,9 @@
   <link href="/css/g-index.css" rel="stylesheet" type="text/css" />
   <link href="/css/portable.css" rel="stylesheet" type="text/css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- JS -->
+  <script src="/lib/js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
   <script src="/js/header.js"></script>
@@ -70,7 +73,7 @@
           <div class="right">
             <button class="redir" onclick="window.location.href='game/';"><i class="fas fa-arrow-up-right-from-square"></i></button>
             <div class="bar-divider"></div>
-            <button class="full" onclick="full()"><i class="fas fa-expand"></i></button>
+            <button id="full" class="full"><i class="fas fa-expand"></i></button>
           </div>
         </div>
       </div>
@@ -81,23 +84,57 @@
   <script src="/js/footer.js"></script>
   <script src="/js/review.js"></script>
   <script>
-  function full() {
-      var iframe = document.getElementById('frame');
-      if (iframe.requestFullscreen) {
-          iframe.requestFullscreen();
-      } else if (iframe.mozRequestFullScreen) {
-          iframe.mozRequestFullScreen();
-      } else if (iframe.webkitRequestFullscreen) {
-          iframe.webkitRequestFullscreen();
-      } else if (iframe.msRequestFullscreen) {
-          iframe.msRequestFullscreen();
-      }
-  }
+$("#full").on('click', function () {
+    requestFullScreen(document.getElementById('frame'));
+});
+
+$("#_exit_full_screen").on('click', cancelFullScreen);
+
+function requestFullScreen(element) {
+    var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+
+    if (requestMethod) {
+        requestMethod.call(element);
+    } else if (typeof window.ActiveXObject !== "undefined") {
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
+}
+
+function cancelFullScreen() {
+    var requestMethod = document.cancelFullScreen || document.webkitCancelFullScreen || document.mozCancelFullScreen || document.msExitFullscreen;
+
+    if (requestMethod) {
+        requestMethod.call(document);
+    } else if (typeof window.ActiveXObject !== "undefined") {
+        var wscript = new ActiveXObject("WScript.Shell");
+        if (wscript !== null) {
+            wscript.SendKeys("{F11}");
+        }
+    }
+}
+
+if (document.addEventListener) {
+    document.addEventListener('fullscreenchange', exitHandler, false);
+    document.addEventListener('webkitfullscreenchange', exitHandler, false);
+    document.addEventListener('mozfullscreenchange', exitHandler, false);
+    document.addEventListener('MSFullscreenChange', exitHandler, false);
+}
+
+function exitHandler() {
+    if (!document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement) {
+        cancelFullScreen();
+    }
+}
+
 
   function play() {
       var iframeContainer = document.getElementById('play-space');
       var iframe = document.getElementById('frame');
       iframe.src = "game/";
+      iframe.style.display = "block";
       iframeContainer.style.display = "none";
   }
   </script>
