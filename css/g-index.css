@@ -27,8 +27,6 @@
   width: 922px;
   height: 45px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   color: #fff;
   background-color: #c43131;
   text-align: center;
