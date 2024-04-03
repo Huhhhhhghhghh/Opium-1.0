@@ -46,7 +46,7 @@ https://249249kfvkm3t5kcf.pages.dev
 
 ## Repo Activity
 
-![Alt](https://repobeats.axiom.co/api/embed/b581d6340b1dfa337152f25d118d94c7ec22d477.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/9b641e0e68c4c61d378f8bcbf4f9f036ea1d8277.svg "Repobeats analytics image")
 
 ## Contributors
 
