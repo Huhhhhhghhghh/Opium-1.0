@@ -100,8 +100,8 @@
 .arrow-right {
   transform: translateY(0.1%);
   position: absolute;
-  margin-right: 140px;
-  margin-left: 140px;
+  margin-right: 150px;
+  margin-left: 150px;
   display: flex;
   cursor: pointer;
   border: none;
