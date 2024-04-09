@@ -108,16 +108,11 @@
   border-radius: 5px;
   font-size: 2.4em;
   color: #fff;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
   width: auto;
   height: 175px;
   align-items: center;
   z-index: 3;
-}
-
-.arrow-right:active,
-.arrow-left:active {
-  background-color: #1B1C24;
 }
 
 .arrow-left {
