@@ -100,15 +100,15 @@
 .arrow-right {
   transform: translateY(0.1%);
   position: absolute;
-  margin-right: 120px;
-  margin-left: 120px;
+  margin-right: 140px;
+  margin-left: 140px;
   display: flex;
   cursor: pointer;
   border: none;
   border-radius: 5px;
   font-size: 2.4em;
   color: #fff;
-  background-color: #1F2029;
+  background-color: transparent;
   width: auto;
   height: 175px;
   align-items: center;
