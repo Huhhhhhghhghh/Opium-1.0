@@ -108,9 +108,9 @@
   border-radius: 5px;
   font-size: 2.4em;
   color: #fff;
-  background-color: #1F2029;
+  background-color: none;
   width: auto;
-  height: auto;
+  height: 175px;
   align-items: center;
   z-index: 1;
 }
@@ -123,11 +123,6 @@
 .arrow-right {
   right: 0;
   justify-content: flex-end;
-}
-
-.arrow-right:active,
-.arrow-left:active {
-  background-color: #1B1C24;
 }
 
 .proxy-banner {
