@@ -98,21 +98,26 @@
 
 .arrow-left,
 .arrow-right {
-  transform: translateY(3%);
+  transform: translateY(2%);
   position: absolute;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 120px;
+  margin-left: 120px;
   display: flex;
   cursor: pointer;
   border: none;
   border-radius: 5px;
   font-size: 2.4em;
   color: #fff;
-  background-color: transparent;
+  background-color: #1F2029;
   width: auto;
   height: 175px;
   align-items: center;
   z-index: 1;
+}
+
+.arrow-right:active,
+.arrow-left:active {
+  background-color: #1B1C24;
 }
 
 .arrow-left {
