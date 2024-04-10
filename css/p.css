@@ -53,4 +53,7 @@ form {
 #p-frame {
   min-height: 100vh;
   width: 100vw;
+  z-index: 1
+  display: block;
+  border: none;
 }
