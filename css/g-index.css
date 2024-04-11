@@ -46,7 +46,7 @@
 .right {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex: 1;
 }
 
