@@ -1,6 +1,5 @@
 const form = document.querySelector('form');
-const input = document.querySelector('input');
-const frame = document.getElementById("p-frame");
+const input = document.getElementById('search-bar');
 
 form.addEventListener('submit', async event => {
     event.preventDefault();
@@ -8,16 +7,17 @@ form.addEventListener('submit', async event => {
         scope: __uv$config.prefix
     }).then(() => {
         let url = input.value.trim();
-        if (!isUrl(url)) url = 'https://www.google.com/search?q=' + url;
-        else if (!(url.startsWith('https://') || url.startsWith('http://'))) url = 'http://' + url;
+        if (!isUrl(url)) 
+            url = 'https://www.google.com/search?q=' + url;
+        else if (!(url.startsWith('https://') || url.startsWith('http://'))) 
+            url = 'http://' + url;
 
-        const uvURL = __uv$config.prefix + __uv$config.encodeUrl(url);
-        
-        frame.src = uvURL;
+        window.location.href = '/p/search.html'
     });
 });
 
 function isUrl(val = ''){
-    if (/^http(s?):\/\//.test(val) || val.includes('.') && val.substr(0, 1) !== ' ') return true;
+    if (/^http(s?):\/\//.test(val) || (val.includes('.') && val.substr(0, 1) !== ' ')) 
+        return true;
     return false;
-};
+}
