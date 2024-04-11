@@ -56,5 +56,8 @@
   font-size: 25px;
   color: #fff;
   cursor: pointer;
-  margin-right: 25px;
+}
+
+.full {
+  margin-right: 5px;
 }
