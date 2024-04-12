@@ -139,7 +139,7 @@
     "title": "Retro Bowl",
     "img": "/i/g/retro-bowl.png",
     "directory": "/g/retro-bowl",
-    "src": "/assets/Retro-Bowl",
+    "src": "/g/Retro-Bowl",
     "proxy": false,
     "tags": ["sports"]
   },
