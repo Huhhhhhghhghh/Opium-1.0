@@ -15,7 +15,7 @@ function ver() {
                 game.tags.forEach(tag => {
                     const categoryDiv = document.querySelector(`#${tag}`);
                     if (categoryDiv) {
-                        if (!addgms.has(tag) || addgms.get(tag).size < 20) {
+                        if (!addgms.has(tag) || addgms.get(tag).size < 15) {
                             if (!addgms.has(tag) || !addgms.get(tag).has(game.title)) {
                                 const gameButton = document.createElement('div');
                                 gameButton.classList.add('game-btn');
