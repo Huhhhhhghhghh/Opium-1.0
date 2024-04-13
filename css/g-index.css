@@ -3,13 +3,14 @@
 }
 
 .bar-divider {
-  width: 1px;
-  height: 100%;
-  background-color: #000;
-  margin-top: 20px;
-  margin-right: auto;
-  position: absolute;
-  left: calc(50% - 1px);
+  border-right-color: #000;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20px;
 }
 
 .frame {
