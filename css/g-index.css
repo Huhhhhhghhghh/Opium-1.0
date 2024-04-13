@@ -67,7 +67,6 @@
 .dislike-btn {
   border: none;
   background-color: transparent;
-  transition: color 0.3s ease;
   font-size: 25px;
   color: #fff;
   cursor: pointer;
