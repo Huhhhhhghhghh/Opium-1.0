@@ -54,10 +54,16 @@
 .redir {
   border: none;
   background-color: transparent;
+  transition: color 0.3s ease;
   font-size: 25px;
   color: #fff;
   cursor: pointer;
   margin-left: 4px;
+}
+
+.full:hover,
+.redir:hover {
+  color: #000;
 }
 
 .full {
