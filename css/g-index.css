@@ -6,7 +6,6 @@
   width: 1px;
   height: 100%;
   background-color: #000;
-  opacity: 0.5;
   margin-top: 20px;
   margin-right: auto;
   position: absolute;
@@ -58,7 +57,7 @@
   font-size: 25px;
   color: #fff;
   cursor: pointer;
-  margin-left: 1px;
+  margin-left: 4px;
 }
 
 .full {
