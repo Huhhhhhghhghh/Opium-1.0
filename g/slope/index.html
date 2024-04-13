@@ -65,6 +65,15 @@
             <p class="game-index-title">Slope</p>
           </div>
           <div class="right">
+            <div class="like">
+              <button class="like-btn" id="like-btn" title="Like" onclick="like()"><i class="fas fa-thumbs-up"></i></button>
+              <p class="like-amount"><!-- where the thing --></p>
+            </div>
+            <div class="dislike">
+              <button class="like-btn" id="dislike-btn" title="Dislike" onclick="dislike()"><i class="fas fa-thumbs-down"></i></button>
+              <p class="dislike-amount"><!-- :( --></p>
+            </div>
+            <div class="bar-divider"></div>
             <button title="Embed Game" class="embed" id="embed"><i class="fas fa-code"></i></button>
             <button title="Redirect To Game" class="redir" onclick="window.location.href='game/';"><i class="fas fa-arrow-up-right-from-square"></i></button>
             <button title="Fullscreen" id="full" class="full"><i class="fas fa-expand"></i></button>
