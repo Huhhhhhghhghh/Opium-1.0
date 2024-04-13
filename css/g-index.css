@@ -96,5 +96,5 @@
 .like-amount {
   display: flex;
   flex-riection: row;
-  align-items: center;
+  text-align: center;
 }
