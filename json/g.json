@@ -349,5 +349,14 @@
     "src": "https://github.com/CybriaTech/Opium-Assets/Madalin-Cars-2",
     "proxy": false,
     "tags": ["unity", "driving"]
+  },
+  {
+    "ID": 40,
+    "title": "A Dance Of Fire And Ice",
+    "img": "/i/g/a-dance-of-fire-and-ice.webp",
+    "directory": "/g/a-dance-of-fire-and-ice",
+    "src": "https://github.com/CybriaTech/Opium-Assets/A-Dance-Of-Fire-And-Ice",
+    "proxy": false,
+    "tags": ["unity"]
   }
 ]
