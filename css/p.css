@@ -11,15 +11,6 @@ main {
   margin-right: 250px;
 }
 
-form {
-  position: relative;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
 .search-bar {
   color: #ffffff;
   background-color: #35363E;
