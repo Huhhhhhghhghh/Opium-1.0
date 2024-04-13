@@ -56,9 +56,9 @@
   font-size: 25px;
   color: #fff;
   cursor: pointer;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .full {
-  margin-left: 20px;
+  margin-right: 20px;
 }
