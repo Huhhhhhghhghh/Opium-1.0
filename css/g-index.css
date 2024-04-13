@@ -92,8 +92,8 @@
   margin-right: 7px;
 }
 
-.dislike-amount,
-.like-amount {
+.dislike,
+.like {
   display: flex;
   flex-riection: row;
 }
