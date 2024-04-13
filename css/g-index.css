@@ -13,6 +13,17 @@
   z-index: 1;
 }
 
+.bar-divider {
+  border-right-color: #3f415c;
+  border-right-style: solid;
+  border-right-width: 1px;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 30px;
+}
+
 .game-bar {
   width: 922px;
   height: 45px;
