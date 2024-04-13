@@ -63,6 +63,25 @@
   margin-left: 4px;
 }
 
+.like-btn,
+.dislike-btn {
+  border: none;
+  background-color: transparent;
+  transition: color 0.3s ease;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 4px;
+}
+
+.like-btn:hover {
+  color: #AAFF00;
+}
+
+.dislike-btn:hover {
+  color: #EE4B2B;
+}
+
 .full:hover,
 .redir:hover,
 .embed:hover {
