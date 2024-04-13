@@ -53,7 +53,8 @@
 }
 
 .full:hover,
-.redir:hover {
+.redir:hover,
+.embed:hover {
   color: #000;
 }
 
