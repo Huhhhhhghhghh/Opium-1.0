@@ -75,11 +75,11 @@
 }
 
 .like-btn:hover {
-  color: #AAFF00;
+  color: #228B22;
 }
 
 .dislike-btn:hover {
-  color: #EE4B2B;
+  color: #AA4A44;
 }
 
 .full:hover,
@@ -101,4 +101,5 @@
 .dislike-amount,
 .like-amount {
   font-size: 24px;
+  display: none;
 }
