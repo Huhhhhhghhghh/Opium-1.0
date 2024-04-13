@@ -91,3 +91,10 @@
 .full {
   margin-right: 7px;
 }
+
+.dislike-amount,
+.like-amount {
+  display: flex;
+  flex-riection: row;
+  align-items: center;
+}
