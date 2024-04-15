@@ -87,6 +87,44 @@
   <script src="/js/footer.js"></script>
   <script src="/js/review.js"></script>
   <script>
+    function like() {
+      var likeBtn = document.getElementById('like-btn');
+      var dislikeBtn = document.getElementById('dislike-btn');
+      var likeAmount = document.querySelector('.like-amount');
+      var dislikeAmount = document.querySelector('.dislike-amount');
+
+      if (likeBtn.classList.contains('liked')) {
+        likeAmount.textContent = parseInt(likeAmount.textContent) - 1;
+      } else {
+        likeAmount.textContent = parseInt(likeAmount.textContent) + 1;
+        if (dislikeBtn.classList.contains('disliked')) {
+          dislikeAmount.textContent = parseInt(dislikeAmount.textContent) - 1;
+          dislikeBtn.classList.remove('disliked');
+        }
+      }
+
+      likeBtn.classList.toggle('liked');
+    }
+
+    function dislike() {
+      var likeBtn = document.getElementById('like-btn');
+      var dislikeBtn = document.getElementById('dislike-btn');
+      var likeAmount = document.querySelector('.like-amount');
+      var dislikeAmount = document.querySelector('.dislike-amount');
+
+      if (dislikeBtn.classList.contains('disliked')) {
+        dislikeAmount.textContent = parseInt(dislikeAmount.textContent) - 1;
+      } else {
+        dislikeAmount.textContent = parseInt(dislikeAmount.textContent) + 1;
+        if (likeBtn.classList.contains('liked')) {
+          likeAmount.textContent = parseInt(likeAmount.textContent) - 1;
+          likeBtn.classList.remove('liked');
+        }
+      }
+
+      dislikeBtn.classList.toggle('disliked');
+    }
+    
 $("#full").on('click', function () {
     requestFullScreen(document.getElementById('frame'));
 });
