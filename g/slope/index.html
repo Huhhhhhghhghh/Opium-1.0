@@ -87,6 +87,65 @@
   <script src="/js/footer.js"></script>
   <script src="/js/review.js"></script>
   <script>
+function like() {
+  var likeBtn = document.getElementById('like-btn');
+  var dislikeBtn = document.getElementById('dislike-btn');
+  var likeAmount = document.querySelector('.like-amount');
+  var dislikeAmount = document.querySelector('.dislike-amount');
+
+  if (likeBtn.classList.contains('liked')) {
+    likeAmount.textContent = parseInt(likeAmount.textContent) - 1;
+    localStorage.setItem('likeCount', parseInt(likeAmount.textContent));
+  } else {
+    likeAmount.textContent = parseInt(likeAmount.textContent) + 1;
+    localStorage.setItem('likeCount', parseInt(likeAmount.textContent));
+    if (dislikeBtn.classList.contains('disliked')) {
+      dislikeAmount.textContent = parseInt(dislikeAmount.textContent) - 1;
+      localStorage.setItem('dislikeCount', parseInt(dislikeAmount.textContent));
+      dislikeBtn.classList.remove('disliked');
+    }
+  }
+
+  likeBtn.classList.toggle('liked');
+}
+
+function dislike() {
+  var likeBtn = document.getElementById('like-btn');
+  var dislikeBtn = document.getElementById('dislike-btn');
+  var likeAmount = document.querySelector('.like-amount');
+  var dislikeAmount = document.querySelector('.dislike-amount');
+
+  if (dislikeBtn.classList.contains('disliked')) {
+    dislikeAmount.textContent = parseInt(dislikeAmount.textContent) - 1;
+    localStorage.setItem('dislikeCount', parseInt(dislikeAmount.textContent));
+  } else {
+    dislikeAmount.textContent = parseInt(dislikeAmount.textContent) + 1;
+    localStorage.setItem('dislikeCount', parseInt(dislikeAmount.textContent));
+    if (likeBtn.classList.contains('liked')) {
+      likeAmount.textContent = parseInt(likeAmount.textContent) - 1;
+      localStorage.setItem('likeCount', parseInt(likeAmount.textContent));
+      likeBtn.classList.remove('liked');
+    }
+  }
+
+  dislikeBtn.classList.toggle('disliked');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var likeAmount = document.querySelector('.like-amount');
+  var dislikeAmount = document.querySelector('.dislike-amount');
+  var storedLikeCount = localStorage.getItem('likeCount');
+  var storedDislikeCount = localStorage.getItem('dislikeCount');
+
+  if (storedLikeCount !== null) {
+    likeAmount.textContent = storedLikeCount;
+  }
+
+  if (storedDislikeCount !== null) {
+    dislikeAmount.textContent = storedDislikeCount;
+  }
+});
+
     
 $("#full").on('click', function () {
     requestFullScreen(document.getElementById('frame'));
